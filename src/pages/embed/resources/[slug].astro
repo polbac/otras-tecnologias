@@ -1,0 +1,164 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const all = await getCollection("resources");
+  return all.map((r) => ({ params: { slug: r.slug } }));
+}
+
+const { slug } = Astro.params;
+const all = await getCollection("resources");
+const entry = all.find((r) => r.slug === slug);
+
+if (!entry) throw new Error(`Recurso no encontrado: ${slug}`);
+
+const { data } = entry;
+const { Content } = await entry.render();
+
+const year = data.createdAt.getUTCFullYear();
+const body = (entry.body ?? "").trim();
+const showMd = body.length > 0;
+---
+
+<BaseLayout title={`OT / ${data.title}`}>
+  <div class="embed">
+    <div class="cols">
+      <section class="left">
+        <div class="imgwrap">
+          {data.image8bit ? (
+            <img src={data.image8bit} alt={data.title} loading="lazy" />
+          ) : data.image ? (
+            <img src={data.image} alt={data.title} loading="lazy" />
+          ) : null}
+        </div>
+
+        <div class="title">{data.title}</div>
+        <div class="meta muted">
+          <div>{year}</div>
+          <div>{data.authors.join(", ")}</div>
+        </div>
+
+        <div class="linkbox">
+          <div class="muted">link</div>
+          <div class="linkline">
+            <a class="url" href={data.link} target="_blank" rel="noreferrer">{data.link}</a>
+          </div>
+          <div class="actions">
+            <a class="btn" href={data.link} target="_blank" rel="noreferrer">[ visit ]</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="right">
+        <p class="desc muted">{data.description}</p>
+
+        {showMd ? (
+          <article class="md">
+            <Content />
+          </article>
+        ) : null}
+      </section>
+    </div>
+  </div>
+
+  <style>
+    .embed {
+      padding: 10px;
+    }
+
+    .cols {
+      display: grid;
+      gap: 12px;
+      align-items: start;
+      grid-template-columns: 30% 70%;
+    }
+
+    @media (max-width: 640px) {
+      .cols {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .left {
+      min-width: 0;
+    }
+
+    .right {
+      min-width: 0;
+      max-width: 640px;
+    }
+
+    .title {
+      color: var(--fg);
+      font-weight: 700;
+      margin-top: 8px;
+    }
+
+    .meta {
+      font-size: 12px;
+      display: grid;
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .desc {
+      margin: 0 0 10px;
+      white-space: pre-line;
+    }
+
+    .linkline {
+      word-break: break-word;
+    }
+
+    .url {
+      color: var(--fg);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .url:hover {
+      color: var(--accent);
+    }
+
+    .linkbox {
+      margin-top: 10px;
+    }
+
+    .actions {
+      margin-top: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      font-family: var(--mono);
+      color: var(--fg);
+      border: 0;
+      padding: 0;
+      margin-top: 6px;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .btn:hover {
+      color: var(--accent);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      image-rendering: pixelated;
+      display: block;
+    }
+    .imgwrap {
+      margin: 0;
+    }
+
+    .md :global(h1) {
+      display: none;
+    }
+    .md :global(p) {
+      color: var(--muted);
+      margin: 0 0 10px;
+    }
+  </style>
+</BaseLayout>
+

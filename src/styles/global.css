@@ -1,0 +1,96 @@
+:root {
+  /* Norton Commander vibe */
+  --bg: #0027b3;
+  --panel: #001f8f;
+  --fg: #ffffff;
+  --muted: #d6ddff;
+  --accent: #ffea00;
+  --danger: #ff5c5c;
+  --border: rgba(255, 255, 255, 0.85);
+  --mono: "Gaisyr Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  color-scheme: dark;
+}
+
+@font-face {
+  font-family: "Gaisyr Mono";
+  src:
+    local("Gaisyr Mono"),
+    url("/fonts/GaisyrMono-Regular.woff2") format("woff2"),
+    url("/fonts/GaisyrMono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gaisyr Mono";
+  src:
+    local("Gaisyr Mono Bold"),
+    local("Gaisyr Mono"),
+    url("/fonts/GaisyrMono-Bold.woff2") format("woff2"),
+    url("/fonts/GaisyrMono-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.45;
+  text-shadow: none;
+}
+
+button,
+input,
+textarea,
+select,
+pre,
+code {
+  font-family: var(--mono);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 880px) {
+  .grid.cols-2 {
+    grid-template-columns: 380px 1fr;
+    align-items: start;
+  }
+}
+
+.muted {
+  color: var(--muted);
+}
+

@@ -1,0 +1,12 @@
+{
+  "artist": "POLBAC",
+  "title": "OTRAS TECNOLOGIAS (EP)",
+  "tracks": [
+    { "title": "Tema 01 (placeholder)", "file": "/audio/ot-01.mp3" },
+    { "title": "Tema 02 (placeholder)", "file": "/audio/ot-02.mp3" },
+    { "title": "Tema 03 (placeholder)", "file": "/audio/ot-03.mp3" },
+    { "title": "Tema 04 (placeholder)", "file": "/audio/ot-04.mp3" },
+    { "title": "Tema 05 (placeholder)", "file": "/audio/ot-05.mp3" },
+    { "title": "Tema 06 (placeholder)", "file": "/audio/ot-06.mp3" }
+  ]
+}

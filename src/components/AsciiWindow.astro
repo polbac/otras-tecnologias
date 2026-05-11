@@ -1,0 +1,61 @@
+---
+type Props = {
+  title: string;
+  subtitle?: string;
+  variant?: "normal" | "danger";
+};
+
+const { title, subtitle, variant = "normal" } = Astro.props as Props;
+const borderColor = variant === "danger" ? "var(--danger)" : "var(--border)";
+---
+
+<section class="window" style={{ "--borderColor": borderColor }}>
+  <header class="titlebar">
+    <div class="title">
+      <span class="name">{title}</span>
+      {subtitle ? <span class="subtitle">{subtitle}</span> : null}
+    </div>
+    <div class="controls" aria-hidden="true">[ _ ] [ ^ ] [ X ]</div>
+  </header>
+  <div class="body">
+    <slot />
+  </div>
+</section>
+
+<style>
+  .window {
+    border: 1px solid var(--borderColor);
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .titlebar {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--borderColor);
+    padding: 10px 12px;
+    white-space: nowrap;
+  }
+  .title {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    min-width: 0;
+  }
+  .name {
+    color: var(--fg);
+  }
+  .subtitle {
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .controls {
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .body {
+    padding: 12px;
+  }
+</style>
+

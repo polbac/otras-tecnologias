@@ -1,0 +1,114 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AsciiWindow from "../../components/AsciiWindow.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const all = await getCollection("resources");
+  return all.map((r) => ({ params: { slug: r.slug } }));
+}
+
+const { slug } = Astro.params;
+const all = await getCollection("resources");
+const entry = all.find((r) => r.slug === slug);
+
+if (!entry) {
+  throw new Error(`Recurso no encontrado: ${slug}`);
+}
+
+const { data } = entry;
+const { Content } = await entry.render();
+---
+
+<BaseLayout title={`OT / ${data.title}`}>
+  <div class="grid cols-2">
+    <AsciiWindow title={data.title} subtitle={data.authors.join(", ")}>
+      <p class="muted">{data.description}</p>
+      <dl class="dl">
+        <div>
+          <dt>fecha</dt>
+          <dd>{data.createdAt.toISOString().slice(0, 10)}</dd>
+        </div>
+        <div>
+          <dt>tags</dt>
+          <dd>{data.tags.join(", ")}</dd>
+        </div>
+        <div>
+          <dt>link</dt>
+          <dd>
+            <a href={data.link} target="_blank" rel="noreferrer">[ abrir ]</a>{" "}
+            <span class="muted">{data.link}</span>
+          </dd>
+        </div>
+      </dl>
+      <p>
+        <a href="/resources/">[ volver ]</a>
+      </p>
+    </AsciiWindow>
+
+    <AsciiWindow title="NOTAS / IMAGEN" subtitle="8/16-bit">
+      {data.image8bit ? (
+        <figure>
+          <img src={data.image8bit} alt={data.title} loading="lazy" />
+          <figcaption class="muted">{data.image8bit}</figcaption>
+        </figure>
+      ) : data.image ? (
+        <figure>
+          <img src={data.image} alt={data.title} loading="lazy" />
+          <figcaption class="muted">{data.image}</figcaption>
+        </figure>
+      ) : (
+        <p class="muted">
+          Sin imagen por ahora. Cuando agreguemos assets, se procesan a 8/16-bit.
+        </p>
+      )}
+      <div class="notes">
+        <hr />
+        <article class="md">
+          <Content />
+        </article>
+      </div>
+    </AsciiWindow>
+  </div>
+
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+      image-rendering: pixelated;
+      border: 1px solid var(--border);
+    }
+    figure {
+      margin: 0;
+    }
+    figcaption {
+      font-size: 12px;
+      margin-top: 6px;
+      word-break: break-word;
+    }
+    .dl {
+      display: grid;
+      gap: 10px;
+      margin: 12px 0;
+    }
+    dt {
+      color: var(--muted);
+    }
+    dd {
+      margin: 0;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 12px 0;
+      opacity: 0.5;
+    }
+    .md :global(h1) {
+      display: none;
+    }
+    .md :global(p) {
+      color: var(--muted);
+    }
+  </style>
+</BaseLayout>
+

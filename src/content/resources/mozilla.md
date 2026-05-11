@@ -1,0 +1,36 @@
+---
+title: Mozilla
+description: >-
+  Organization por una web open; tools, standards y community.
+
+
+  In the OT archive, this entry is tagged as: community, infrastructure,
+  open-source, open-web — a shorthand for the kinds of practice and politics it
+  connects to.
+
+
+  Beyond the headline: Mozilla is included here because it helps imagine
+  technology as something collective — built, maintained, and argued about in
+  public — rather than only as a private product.
+
+
+  If you follow the link, you will usually find primary documentation, community
+  governance, or ongoing work that is hard to summarize in a single paragraph.
+  Treat this page as a bookmark and a doorway, not a replacement for reading the
+  source.
+authors:
+  - Mozilla Foundation
+  - Mozilla Corporation
+link: 'https://www.mozilla.org/'
+createdAt: '1998-03-31'
+tags:
+  - community
+  - infrastructure
+  - open-source
+  - open-web
+image: /images/resources/mozilla.png
+image8bit: /images/resources-8bit/mozilla.png
+imageSource: 'https://www.mozilla.org/media/img/m24/og.3a69dffad83e.png'
+imageLicense: 'ver link fuente (og:image) / revisar licencia manualmente'
+---
+

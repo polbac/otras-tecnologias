@@ -1,0 +1,199 @@
+---
+import ep from "../content/ep.json";
+
+type Track = { title: string; file: string };
+const tracks = (ep as any).tracks as Track[];
+const title = (ep as any).title as string;
+const artist = (ep as any).artist as string;
+---
+
+<div class="player" data-tracks={JSON.stringify(tracks)}>
+  <div class="header">
+    <div>
+      <div class="name">{title}</div>
+      <div class="muted">{artist}</div>
+    </div>
+    <div class="muted">{tracks.length} temas</div>
+  </div>
+
+  <div class="row">
+    <button class="btn" data-action="prev" type="button">[ &lt;&lt; ]</button>
+    <button class="btn" data-action="toggle" type="button">[ play ]</button>
+    <button class="btn" data-action="next" type="button">[ &gt;&gt; ]</button>
+  </div>
+
+  <div class="row">
+    <div class="bar" aria-label="progreso">
+      <span class="fill" style="width: 0%"></span>
+    </div>
+    <div class="time muted"><span data-time>00:00</span> / <span data-dur>00:00</span></div>
+  </div>
+
+  <div class="track muted">
+    ahora: <span data-now>—</span>
+  </div>
+
+  <audio preload="metadata"></audio>
+</div>
+
+<script is:inline>
+  /** @typedef {{ title: string, file: string }} Track */
+
+  const root = /** @type {HTMLElement | null} */ (document.currentScript?.previousElementSibling);
+  if (!root) throw new Error("AudioPlayer root not found");
+
+  /** @type {Track[]} */
+  const tracks = JSON.parse(root.dataset.tracks || "[]");
+
+  const audioNode = root.querySelector("audio");
+  const btnToggleNode = root.querySelector('[data-action="toggle"]');
+  const btnPrevNode = root.querySelector('[data-action="prev"]');
+  const btnNextNode = root.querySelector('[data-action="next"]');
+  const fillNode = root.querySelector(".fill");
+  const nowNode = root.querySelector("[data-now]");
+  const elTimeNode = root.querySelector("[data-time]");
+  const elDurNode = root.querySelector("[data-dur]");
+
+  if (
+    !audioNode ||
+    !btnToggleNode ||
+    !btnPrevNode ||
+    !btnNextNode ||
+    !fillNode ||
+    !nowNode ||
+    !elTimeNode ||
+    !elDurNode
+  ) {
+    throw new Error("AudioPlayer: missing required elements");
+  }
+
+  const audio = /** @type {HTMLAudioElement} */ (audioNode);
+  const btnToggle = /** @type {HTMLButtonElement} */ (btnToggleNode);
+  const btnPrev = /** @type {HTMLButtonElement} */ (btnPrevNode);
+  const btnNext = /** @type {HTMLButtonElement} */ (btnNextNode);
+  const fill = /** @type {HTMLSpanElement} */ (fillNode);
+  const now = /** @type {HTMLElement} */ (nowNode);
+  const elTime = /** @type {HTMLElement} */ (elTimeNode);
+  const elDur = /** @type {HTMLElement} */ (elDurNode);
+
+  /** @type {number} */
+  let idx = 0;
+
+  /** @param {number} sec */
+  function fmt(sec) {
+    if (!Number.isFinite(sec) || sec < 0) return "00:00";
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60);
+    return String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+  }
+
+  /** @param {number} i */
+  function setTrack(i) {
+    if (!tracks.length) return;
+    idx = (i + tracks.length) % tracks.length;
+    audio.src = tracks[idx].file;
+    now.textContent = tracks[idx].title;
+  }
+
+  /** @param {boolean} isPlaying */
+  function setPlaying(isPlaying) {
+    btnToggle.textContent = isPlaying ? "[ pause ]" : "[ play ]";
+  }
+
+  setTrack(0);
+  setPlaying(false);
+
+  btnToggle.addEventListener("click", async () => {
+    if (!tracks.length) return;
+    if (audio.paused) {
+      try {
+        await audio.play();
+      } catch {}
+    } else {
+      audio.pause();
+    }
+  });
+
+  btnPrev.addEventListener("click", async () => {
+    if (!tracks.length) return;
+    setTrack(idx - 1);
+    try {
+      await audio.play();
+    } catch {}
+  });
+
+  btnNext.addEventListener("click", async () => {
+    if (!tracks.length) return;
+    setTrack(idx + 1);
+    try {
+      await audio.play();
+    } catch {}
+  });
+
+  audio.addEventListener("play", () => setPlaying(true));
+  audio.addEventListener("pause", () => setPlaying(false));
+  audio.addEventListener("ended", () => {
+    setTrack(idx + 1);
+    audio.play().catch(() => {});
+  });
+  audio.addEventListener("loadedmetadata", () => {
+    elDur.textContent = fmt(audio.duration);
+  });
+  audio.addEventListener("timeupdate", () => {
+    elTime.textContent = fmt(audio.currentTime);
+    const p = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+    fill.style.width = String(Math.max(0, Math.min(100, p))) + "%";
+  });
+</script>
+
+<style>
+  .player {
+    display: grid;
+    gap: 10px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: baseline;
+  }
+  .name {
+    color: var(--fg);
+  }
+  .row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    font-family: var(--mono);
+    background: transparent;
+    color: var(--fg);
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    border-color: var(--accent);
+  }
+  .bar {
+    position: relative;
+    width: min(420px, 100%);
+    height: 12px;
+    border: 1px solid var(--border);
+  }
+  .fill {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    opacity: 0.75;
+  }
+  .time {
+    font-size: 12px;
+  }
+  .track {
+    font-size: 12px;
+  }
+</style>
+

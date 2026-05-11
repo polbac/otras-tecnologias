@@ -1,0 +1,30 @@
+{
+  "name": "otras-tecnologias",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "generate:resources": "tsx scripts/generate-resources.ts",
+    "readme": "tsx scripts/build-readme.ts",
+    "images": "tsx scripts/process-images.ts",
+    "ensure:images": "tsx scripts/ensure-resource-images.ts",
+    "fetch:images": "tsx scripts/fetch-og-images.ts",
+    "tags:en": "tsx scripts/translate-tags.ts",
+    "descriptions:en": "tsx scripts/enrich-descriptions-en.ts"
+  },
+  "dependencies": {
+    "astro": "^5.13.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^24.5.2",
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
