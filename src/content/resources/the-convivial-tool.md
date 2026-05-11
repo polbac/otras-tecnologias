@@ -22,6 +22,7 @@ authors:
 link: 'https://en.wikipedia.org/wiki/Tools_for_Conviviality'
 createdAt: '1973-01-01'
 tags:
+  - books
   - community
   - history
   - theory

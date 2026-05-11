@@ -1,19 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AsciiLogo from "../../components/AsciiLogo";
 ---
 
 <BaseLayout title="OT / manifesto">
   <div class="embed">
-    <pre class="art" aria-label="ascii art otras tecnologias">
-  .-----.
- /  _  \        _                 _            _                  _
-|  (_)  |  ___ | |_ _ __ __ _ ___| |_ ___  ___| | ___   __ _ _ __| |__
-|   _   | / _ \| __| '__/ _` / __| __/ _ \/ __| |/ _ \ / _` | '__| '_ \
-|  (_)  || (_) | |_| | | (_| \__ \ ||  __/ (__| | (_) | (_| | |  | |_) |
- \_____/  \___/ \__|_|  \__,_|___/\__\___|\___|_|\___/ \__,_|_|  |_.__/
-
-OTRAS TECNOLOGIAS
-    </pre>
+    <AsciiLogo client:load />
 
     <div class="text">
       <p>

@@ -6,6 +6,9 @@ const all = await getCollection("resources");
 const items = all
   .slice()
   .sort((a, b) => a.data.title.localeCompare(b.data.title, "en", { sensitivity: "base" }));
+const tags = Array.from(new Set(items.flatMap((r) => r.data.tags))).sort((a, b) =>
+  a.localeCompare(b, "en", { sensitivity: "base" }),
+);
 ---
 
 <BaseLayout title="OT / archive">
@@ -49,9 +52,41 @@ const items = all
             <span class="muted">search</span>
             <input id="q" class="input" type="text" placeholder="title / author / tag…" />
           </label>
+          <button id="filters" class="filters-button" type="button">[ filters ]</button>
           <div class="active muted">
-            filter: <span id="filterState">—</span>
-            <button id="clear" class="clear" type="button">[ clear ]</button>
+            <span id="filterState">—</span>
+            <button id="clear" class="clear" type="button" hidden>[ clear ]</button>
+          </div>
+        </div>
+
+        <div
+          id="filtersModal"
+          class="filter-modal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="filtersTitle"
+          aria-hidden="true"
+          hidden
+        >
+          <div class="filter-dialog">
+            <header class="filter-titlebar">
+              <span id="filtersTitle">TAGS</span>
+              <button id="filtersClose" class="modal-close" type="button">[ X ]</button>
+            </header>
+            <div class="filter-body">
+              <p class="muted">select one tag</p>
+              <div class="filter-grid">
+                {tags.map((tag) => (
+                  <button class="filter-tag" type="button" data-tag={tag}>
+                    {tag}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <footer class="filter-actions">
+              <button id="filtersClear" class="clear" type="button" hidden>[ clear ]</button>
+              <button id="filtersCancel" class="clear" type="button">[ cancel ]</button>
+            </footer>
           </div>
         </div>
 
@@ -73,7 +108,7 @@ const items = all
                   data-slug={r.slug}
                   data-title={r.data.title}
                   data-year={String(r.data.createdAt.getUTCFullYear())}
-                  data-tags={r.data.tags.join(" ")}
+                  data-tags={JSON.stringify(r.data.tags)}
                   data-authors={r.data.authors.join(" ")}
                 >
                   <td class="col-id">{String(i + 1).padStart(2, "0")}</td>
@@ -120,11 +155,25 @@ const items = all
     const q = /** @type {HTMLInputElement | null} */ (document.getElementById("q"));
     const filterState = /** @type {HTMLElement | null} */ (document.getElementById("filterState"));
     const clearBtn = /** @type {HTMLButtonElement | null} */ (document.getElementById("clear"));
+    const filtersBtn = /** @type {HTMLButtonElement | null} */ (document.getElementById("filters"));
+    const filtersModal = /** @type {HTMLElement | null} */ (document.getElementById("filtersModal"));
+    const filtersClose = /** @type {HTMLButtonElement | null} */ (
+      document.getElementById("filtersClose")
+    );
+    const filtersCancel = /** @type {HTMLButtonElement | null} */ (
+      document.getElementById("filtersCancel")
+    );
+    const filtersClear = /** @type {HTMLButtonElement | null} */ (
+      document.getElementById("filtersClear")
+    );
     const rows = /** @type {NodeListOf<HTMLTableRowElement>} */ (
       document.querySelectorAll("tr.row[data-slug]")
     );
     const chips = /** @type {NodeListOf<HTMLButtonElement>} */ (
       document.querySelectorAll("button.chip[data-tag]")
+    );
+    const filterTags = /** @type {NodeListOf<HTMLButtonElement>} */ (
+      document.querySelectorAll("button.filter-tag[data-tag]")
     );
 
     function selectRow(row) {
@@ -169,12 +218,30 @@ const items = all
     // --- filter/search
     let tagFilter = "";
 
+    function getRowTags(row) {
+      try {
+        const parsed = JSON.parse(row.dataset.tags || "[]");
+        return Array.isArray(parsed) ? parsed.map((tag) => String(tag).toLowerCase()) : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function syncFilterControls() {
+      const hasActive = Boolean(tagFilter || q?.value?.trim());
+      clearBtn && (clearBtn.hidden = !hasActive);
+      filtersClear && (filtersClear.hidden = !hasActive);
+      chips.forEach((b) => b.classList.toggle("active", b.dataset.tag === tagFilter));
+      filterTags.forEach((b) => b.classList.toggle("active", b.dataset.tag === tagFilter));
+    }
+
     function setStateLabel() {
       if (!filterState) return;
       const parts = [];
       if (tagFilter) parts.push(`tag:${tagFilter}`);
       if (q?.value?.trim()) parts.push(`q:${q.value.trim()}`);
       filterState.textContent = parts.length ? parts.join(" ") : "—";
+      syncFilterControls();
     }
 
     function applyFilter() {
@@ -182,14 +249,37 @@ const items = all
       rows.forEach((row) => {
         const title = (row.dataset.title ?? "").toLowerCase();
         const authors = (row.dataset.authors ?? "").toLowerCase();
-        const tags = (row.dataset.tags ?? "").toLowerCase();
-        const okTag = tagFilter ? tags.split(/\s+/).includes(tagFilter) : true;
+        const tags = getRowTags(row);
+        const searchableTags = tags.join(" ");
+        const okTag = tagFilter ? tags.includes(tagFilter.toLowerCase()) : true;
         const okQuery = query
-          ? title.includes(query) || authors.includes(query) || tags.includes(query)
+          ? title.includes(query) || authors.includes(query) || searchableTags.includes(query)
           : true;
         row.style.display = okTag && okQuery ? "" : "none";
       });
       setStateLabel();
+    }
+
+    function closeFiltersModal() {
+      if (!filtersModal) return;
+      filtersModal.hidden = true;
+      filtersModal.setAttribute("aria-hidden", "true");
+      filtersBtn?.focus();
+    }
+
+    function openFiltersModal() {
+      if (!filtersModal) return;
+      filtersModal.hidden = false;
+      filtersModal.setAttribute("aria-hidden", "false");
+      const active = filtersModal.querySelector("button.filter-tag.active");
+      const firstTag = filtersModal.querySelector("button.filter-tag");
+      (active || firstTag || filtersClose)?.focus?.();
+    }
+
+    function clearFilters() {
+      tagFilter = "";
+      if (q) q.value = "";
+      applyFilter();
     }
 
     chips.forEach((btn) => {
@@ -197,18 +287,35 @@ const items = all
         e.preventDefault();
         const t = btn.dataset.tag || "";
         tagFilter = tagFilter === t ? "" : t;
-        chips.forEach((b) => b.classList.toggle("active", b.dataset.tag === tagFilter));
         applyFilter();
       });
     });
 
-    q?.addEventListener("input", () => applyFilter());
-    clearBtn?.addEventListener("click", () => {
-      tagFilter = "";
-      if (q) q.value = "";
-      chips.forEach((b) => b.classList.remove("active"));
-      applyFilter();
+    filterTags.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const t = btn.dataset.tag || "";
+        tagFilter = tagFilter === t ? "" : t;
+        applyFilter();
+        closeFiltersModal();
+      });
     });
+
+    filtersBtn?.addEventListener("click", () => openFiltersModal());
+    filtersClose?.addEventListener("click", () => closeFiltersModal());
+    filtersCancel?.addEventListener("click", () => closeFiltersModal());
+    filtersClear?.addEventListener("click", () => {
+      clearFilters();
+      closeFiltersModal();
+    });
+    filtersModal?.addEventListener("click", (e) => {
+      if (e.target === filtersModal) closeFiltersModal();
+    });
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && filtersModal && !filtersModal.hidden) closeFiltersModal();
+    });
+
+    q?.addEventListener("input", () => applyFilter());
+    clearBtn?.addEventListener("click", () => clearFilters());
     applyFilter();
 
     // --- draggable split
@@ -382,7 +489,10 @@ const items = all
       white-space: nowrap;
     }
 
-    .clear {
+    .clear,
+    .filters-button,
+    .modal-close,
+    .filter-tag {
       font-family: var(--mono);
       background: transparent;
       color: var(--fg);
@@ -391,9 +501,93 @@ const items = all
       cursor: pointer;
     }
 
-    .clear:hover {
+    .clear:hover,
+    .filters-button:hover,
+    .modal-close:hover,
+    .filter-tag:hover {
       border-color: var(--accent);
       color: var(--accent);
+    }
+
+    .filter-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      display: grid;
+      place-items: center;
+      padding: 18px;
+      background: rgba(0, 0, 0, 0.45);
+    }
+
+    .filter-modal[hidden] {
+      display: none;
+    }
+
+    .filter-dialog {
+      width: min(720px, calc(100vw - 36px));
+      max-height: min(620px, calc(100vh - 36px));
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      border: 2px solid var(--border);
+      background: var(--panel);
+      box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.45);
+    }
+
+    .filter-titlebar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 10px;
+      background: #b50000;
+      color: #0b0b0b;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+    }
+
+    .modal-close {
+      color: #0b0b0b;
+      border-color: rgba(0, 0, 0, 0.45);
+    }
+
+    .modal-close:hover {
+      color: #0b0b0b;
+      border-color: #0b0b0b;
+    }
+
+    .filter-body {
+      min-height: 0;
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .filter-body p {
+      margin: 0 0 10px;
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 6px;
+    }
+
+    .filter-tag {
+      text-align: left;
+      color: var(--muted);
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .filter-tag.active {
+      border-color: var(--accent);
+      color: var(--bg);
+      background: var(--accent);
+    }
+
+    .filter-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      padding: 8px 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(0, 0, 0, 0.12);
     }
 
     .pane-title {

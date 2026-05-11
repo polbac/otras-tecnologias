@@ -23,6 +23,7 @@ authors:
 link: 'https://en.wikipedia.org/wiki/Small_Is_Beautiful'
 createdAt: '1973-01-01'
 tags:
+  - books
   - community
   - critique
   - economy

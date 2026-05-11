@@ -24,6 +24,7 @@ link: >-
   https://press.princeton.edu/books/paperback/9780521405997/governing-the-commons
 createdAt: '1990-01-01'
 tags:
+  - books
   - commons
   - community
   - democracy

@@ -9,6 +9,7 @@
   --border: rgba(255, 255, 255, 0.85);
   --mono: "Gaisyr Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
+  --dos-cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='24' viewBox='0 0 14 24'%3E%3Crect x='1' y='1' width='6' height='22' fill='%23ffea00'/%3E%3Crect x='7' y='1' width='2' height='22' fill='%230b0b0b'/%3E%3C/svg%3E") 3 3;
   color-scheme: dark;
 }
 
@@ -52,6 +53,11 @@ body {
   font-size: 14px;
   line-height: 1.45;
   text-shadow: none;
+}
+
+body,
+body * {
+  cursor: var(--dos-cursor), auto !important;
 }
 
 button,

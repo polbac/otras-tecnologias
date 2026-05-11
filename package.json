@@ -17,7 +17,11 @@
     "descriptions:en": "tsx scripts/enrich-descriptions-en.ts"
   },
   "dependencies": {
+    "@astrojs/react": "^5.0.0",
     "astro": "^5.13.0",
+    "react": "^19.2.6",
+    "react-ascii-text": "^0.0.6",
+    "react-dom": "^19.2.6",
     "sharp": "^0.34.3"
   },
   "devDependencies": {

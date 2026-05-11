@@ -22,6 +22,7 @@ authors:
 link: 'https://www.catb.org/~esr/writings/cathedral-bazaar/'
 createdAt: '1997-01-01'
 tags:
+  - books
   - cooperation
   - history
   - open-source
