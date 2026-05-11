@@ -1,8 +1,7 @@
 ---
 title: 'SourceHut'
 description: >-
-  Suite de herramientas de desarrollo basada en Git, email, builds y
-  simplicidad unix.
+  SourceHut is an open-source tool connected to email and Git.
 
   In the OT archive, this entry is tagged as: email, git, open-source, tools —
   a shorthand for the kinds of practice and politics it connects to.

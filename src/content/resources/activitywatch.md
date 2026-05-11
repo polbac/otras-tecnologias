@@ -1,8 +1,7 @@
 ---
 title: 'ActivityWatch'
 description: >-
-  Registro local y open-source de actividad digital para auto-observacion y
-  productividad.
+  ActivityWatch is an open-source tool connected to privacy and tracking.
 
   In the OT archive, this entry is tagged as: open-source, privacy, tools,
   tracking — a shorthand for the kinds of practice and politics it connects

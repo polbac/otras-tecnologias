@@ -1,8 +1,7 @@
 ---
 title: 'GNU Guix'
 description: >-
-  Gestor de paquetes y sistema operativo enfocado en libertad,
-  reproducibilidad y control.
+  GNU Guix is a resource about free software, packages, and reproducibility.
 
   In the OT archive, this entry is tagged as: free-software, packages,
   reproducibility, tools — a shorthand for the kinds of practice and politics

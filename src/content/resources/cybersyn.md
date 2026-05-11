@@ -1,7 +1,8 @@
 ---
 title: Project Cybersyn (Chile)
 description: >-
-  Experimento de cibernetica y planificacion democratica (1971–1973).
+  Project Cybersyn (Chile) is a resource about democracy, history, latam, and
+  theory.
 
 
   In the OT archive, this entry is tagged as: democracy, history, latam, theory

@@ -1,7 +1,8 @@
 ---
 title: Open Source Seed Initiative (OSSI)
 description: >-
-  Semillas como bien comun; licenses y autonomy agricola.
+  Open Source Seed Initiative (OSSI) is a resource about commons, community,
+  diy, and licenses.
 
 
   In the OT archive, this entry is tagged as: commons, community, diy, licenses

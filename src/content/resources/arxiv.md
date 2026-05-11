@@ -1,7 +1,8 @@
 ---
 title: arXiv
 description: >-
-  Repositorio open de preprints; infrastructure para circulacion del knowledge.
+  arXiv is a resource about archive, infrastructure, knowledge, and open
+  science.
 
 
   In the OT archive, this entry is tagged as: archive, infrastructure,

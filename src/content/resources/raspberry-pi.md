@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi
 description: >-
-  Computadoras accesibles para education, hackerspaces y projects comunitarios.
+  Raspberry Pi is a resource about diy, education, and hardware.
 
 
   In the OT archive, this entry is tagged as: diy, education, hardware, tools —

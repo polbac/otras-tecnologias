@@ -1,8 +1,7 @@
 ---
 title: 'Rust'
 description: >-
-  Lenguaje de sistemas enfocado en seguridad de memoria, concurrencia y
-  rendimiento.
+  Rust is an open-source tool connected to programming and systems.
 
   In the OT archive, this entry is tagged as: open-source, programming,
   systems, tools — a shorthand for the kinds of practice and politics it

@@ -1,8 +1,7 @@
 ---
 title: 'Two Bits'
 description: >-
-  Estudio antropologico sobre free software, publics recursivos y cultura
-  tecnica.
+  Two Bits is a book about anthropology, commons, free software, and theory.
 
   In the OT archive, this entry is tagged as: anthropology, books, commons,
   free-software, theory — a shorthand for the kinds of practice and politics

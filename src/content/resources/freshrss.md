@@ -1,7 +1,7 @@
 ---
 title: 'FreshRSS'
 description: >-
-  Agregador RSS self-hosted para seguir fuentes sin feeds algoritmicos.
+  FreshRSS is an open-source tool connected to RSS and self-hosting.
 
   In the OT archive, this entry is tagged as: open-source, rss, self-hosting,
   tools — a shorthand for the kinds of practice and politics it connects to.

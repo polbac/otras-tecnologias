@@ -1,8 +1,7 @@
 ---
 title: Protocol
 description: >-
-  Libro sobre control, redes distribuidas y las reglas tecnicas que organizan
-  internet.
+  Protocol is a book about control, internet, networks, and protocol.
 
 
   In the OT archive, this entry is tagged as: control, internet, networks,

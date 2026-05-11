@@ -1,7 +1,8 @@
 ---
 title: 'CryptPad'
 description: >-
-  Suite colaborativa cifrada para documentos, formularios, tableros y notas.
+  CryptPad is an open-source resource connected to collaboration, documents, and
+  privacy.
 
   In the OT archive, this entry is tagged as: collaboration, documents, open-
   source, privacy — a shorthand for the kinds of practice and politics it

@@ -1,7 +1,7 @@
 ---
 title: Wikisource
 description: >-
-  Biblioteca free de textos; transcripcion y edicion comunitaria.
+  Wikisource is a resource about archive, community, knowledge, and libraries.
 
 
   In the OT archive, this entry is tagged as: archive, community, knowledge,

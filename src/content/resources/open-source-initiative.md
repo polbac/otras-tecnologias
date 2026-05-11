@@ -1,7 +1,8 @@
 ---
 title: Open Source Initiative (OSI)
 description: >-
-  Organization que mantiene la definicion de open source y aprueba licenses.
+  Open Source Initiative (OSI) is an open-source resource connected to
+  community, history, and licenses.
 
 
   In the OT archive, this entry is tagged as: community, history, licenses,

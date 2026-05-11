@@ -1,7 +1,7 @@
 ---
 title: 'Koha'
 description: >-
-  Sistema integrado de gestion bibliotecaria libre para catalogos y prestamos.
+  Koha is an open-source tool connected to libraries and public goods.
 
   In the OT archive, this entry is tagged as: libraries, open-source, public-
   good, tools — a shorthand for the kinds of practice and politics it connects

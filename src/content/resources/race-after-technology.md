@@ -1,8 +1,8 @@
 ---
 title: Race After Technology
 description: >-
-  Libro sobre automatizacion, discriminacion codificada y los sistemas tecnicos
-  que reproducen desigualdad.
+  Race After Technology is a book about automation, justice, politics, and
+  software.
 
 
   In the OT archive, this entry is tagged as: automation, justice, politics,

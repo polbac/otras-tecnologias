@@ -1,7 +1,8 @@
 ---
 title: Open Collective
 description: >-
-  Infrastructure de financiamiento transparente para communities y projects.
+  Open Collective is a resource about community, economy, infrastructure, and
+  transparency.
 
 
   In the OT archive, this entry is tagged as: community, economy,

@@ -1,7 +1,8 @@
 ---
 title: Open Access Week
 description: >-
-  Semana global para promover acceso open y science open.
+  Open Access Week is a resource about community, events, knowledge, and open
+  science.
 
 
   In the OT archive, this entry is tagged as: community, events, knowledge,

@@ -1,7 +1,7 @@
 ---
 title: 'The Master Switch'
 description: >-
-  Historia de ciclos de apertura y cierre en industrias de comunicacion.
+  The Master Switch is a book about history, internet, media, and policy.
 
   In the OT archive, this entry is tagged as: books, history, internet, media,
   policy — a shorthand for the kinds of practice and politics it connects to.

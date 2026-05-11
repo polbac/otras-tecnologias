@@ -1,7 +1,7 @@
 ---
 title: Blender
 description: >-
-  Suite free para 3D; puente entre art, community y tools abiertas.
+  Blender is an open-source tool connected to art and community.
 
 
   In the OT archive, this entry is tagged as: art, community, open-source, tools

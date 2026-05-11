@@ -1,7 +1,7 @@
 ---
 title: 'Semantic MediaWiki'
 description: >-
-  Extension para agregar datos semanticos consultables a wikis MediaWiki.
+  Semantic MediaWiki is a resource about knowledge, linked data, and wiki.
 
   In the OT archive, this entry is tagged as: knowledge, linked-data, tools,
   wiki — a shorthand for the kinds of practice and politics it connects to.

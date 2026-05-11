@@ -1,7 +1,8 @@
 ---
 title: 'Funkwhale'
 description: >-
-  Plataforma federada para hospedar, compartir y escuchar musica y audio.
+  Funkwhale is an open-source resource connected to federation, music, and
+  platforms.
 
   In the OT archive, this entry is tagged as: federation, music, open-source,
   platforms — a shorthand for the kinds of practice and politics it connects

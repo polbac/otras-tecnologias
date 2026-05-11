@@ -1,8 +1,8 @@
 ---
 title: The Age of Surveillance Capitalism
 description: >-
-  Libro sobre extraccion de datos, plataformas, conducta y poder economico en la
-  infraestructura digital.
+  The Age of Surveillance Capitalism is a book about capitalism, data,
+  platforms, and privacy.
 
 
   In the OT archive, this entry is tagged as: capitalism, data, platforms,

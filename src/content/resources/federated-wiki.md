@@ -1,7 +1,7 @@
 ---
 title: Federated Wiki
 description: >-
-  Wiki federada; experimentos sobre autoría distribuida y networks de knowledge.
+  Federated Wiki is a resource about decentralization, knowledge, and wikis.
 
 
   In the OT archive, this entry is tagged as: decentralization, knowledge,

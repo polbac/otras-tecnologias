@@ -1,8 +1,7 @@
 ---
 title: 'Atlas of AI'
 description: >-
-  Libro sobre inteligencia artificial, extraccion, trabajo, poder material e
-  infraestructura planetaria.
+  Atlas of AI is a book about AI, infrastructure, labor, and theory.
 
   In the OT archive, this entry is tagged as: ai, books, infrastructure,
   labor, theory — a shorthand for the kinds of practice and politics it

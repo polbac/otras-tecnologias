@@ -1,8 +1,7 @@
 ---
 title: 'Zulip'
 description: >-
-  Chat por hilos y streams para conversaciones asincronicas de comunidades
-  tecnicas.
+  Zulip is an open-source tool connected to chat and collaboration.
 
   In the OT archive, this entry is tagged as: chat, collaboration, open-
   source, tools — a shorthand for the kinds of practice and politics it

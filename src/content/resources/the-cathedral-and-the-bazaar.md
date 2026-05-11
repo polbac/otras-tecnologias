@@ -1,7 +1,7 @@
 ---
 title: The Cathedral and the Bazaar
 description: >-
-  Ensayo sobre modelos de desarrollo open y coordinacion comunitaria.
+  The Cathedral and the Bazaar is a book about cooperation, history, and theory.
 
 
   In the OT archive, this entry is tagged as: cooperation, history, open-source,

@@ -1,7 +1,7 @@
 ---
 title: 'MediaWiki'
 description: >-
-  Motor wiki libre usado por Wikipedia y muchos proyectos colaborativos.
+  MediaWiki is an open-source tool connected to knowledge and wiki.
 
   In the OT archive, this entry is tagged as: knowledge, open-source, tools,
   wiki — a shorthand for the kinds of practice and politics it connects to.

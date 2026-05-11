@@ -1,8 +1,8 @@
 ---
 title: Reclamar infraestructuras (tema)
 description: >-
-  Lecturas sobre infraestructuras como comunes: networks, archives, energy,
-  ciudad.
+  Reclamar infraestructuras (tema) is a resource about commons, infrastructure,
+  politics, and theory.
 
 
   In the OT archive, this entry is tagged as: commons, infrastructure, politics,

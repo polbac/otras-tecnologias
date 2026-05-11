@@ -1,7 +1,7 @@
 ---
 title: Audacity
 description: >-
-  Edicion de audio free; tool comun para produccion comunitaria.
+  Audacity is an open-source tool connected to audio and community.
 
 
   In the OT archive, this entry is tagged as: audio, community, open-source,

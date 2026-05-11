@@ -1,8 +1,7 @@
 ---
 title: 'Rocket.Chat'
 description: >-
-  Chat colaborativo open-source para comunidades, organizaciones e
-  instituciones.
+  Rocket.Chat is an open-source tool connected to chat and collaboration.
 
   In the OT archive, this entry is tagged as: chat, collaboration, open-
   source, tools — a shorthand for the kinds of practice and politics it

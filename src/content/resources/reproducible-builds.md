@@ -1,8 +1,8 @@
 ---
 title: 'Reproducible Builds'
 description: >-
-  Proyecto para hacer que binarios puedan verificarse como resultado del mismo
-  codigo fuente.
+  Reproducible Builds is an open-source resource connected to infrastructure,
+  reproducibility, and security.
 
   In the OT archive, this entry is tagged as: infrastructure, open-source,
   reproducibility, security — a shorthand for the kinds of practice and

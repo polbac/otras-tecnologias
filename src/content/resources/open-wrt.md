@@ -1,7 +1,8 @@
 ---
 title: OpenWrt
 description: >-
-  Firmware free para routers; control comunitario de infrastructure domestica.
+  OpenWrt is an open-source resource connected to community, hardware, and
+  infrastructure.
 
 
   In the OT archive, this entry is tagged as: community, hardware,

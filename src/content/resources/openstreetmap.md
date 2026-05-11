@@ -1,7 +1,7 @@
 ---
 title: OpenStreetMap
 description: >-
-  Free map del mundo creado por voluntaries; open data para la community.
+  OpenStreetMap is a resource about community, cooperation, and open data.
 
 
   In the OT archive, this entry is tagged as: community, cooperation, open-data,

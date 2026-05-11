@@ -1,8 +1,8 @@
 ---
 title: 'Mobilizon'
 description: >-
-  Herramienta federada para organizar eventos, grupos y encuentros
-  comunitarios.
+  Mobilizon is an open-source resource connected to community, events, and
+  federation.
 
   In the OT archive, this entry is tagged as: community, events, federation,
   open-source — a shorthand for the kinds of practice and politics it connects

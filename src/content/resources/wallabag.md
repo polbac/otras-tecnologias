@@ -1,8 +1,7 @@
 ---
 title: 'Wallabag'
 description: >-
-  Servicio libre para guardar articulos y leerlos despues desde una instancia
-  propia.
+  Wallabag is an open-source tool connected to reading and self-hosting.
 
   In the OT archive, this entry is tagged as: open-source, reading, self-
   hosting, tools — a shorthand for the kinds of practice and politics it

@@ -1,8 +1,7 @@
 ---
 title: 'OpenTofu'
 description: >-
-  Herramienta open-source para infraestructura como codigo, nacida como fork
-  de Terraform.
+  OpenTofu is an open-source tool connected to automation and infrastructure.
 
   In the OT archive, this entry is tagged as: automation, infrastructure,
   open-source, tools — a shorthand for the kinds of practice and politics it

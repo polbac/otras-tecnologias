@@ -1,7 +1,7 @@
 ---
 title: 'OpenVPN'
 description: >-
-  Software open-source para redes privadas virtuales y tuneles seguros.
+  OpenVPN is an open-source tool connected to networking and security.
 
   In the OT archive, this entry is tagged as: networking, open-source,
   security, tools — a shorthand for the kinds of practice and politics it

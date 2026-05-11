@@ -1,7 +1,7 @@
 ---
 title: W3C
 description: >-
-  Consorcio de standards web; gobernanza tecnica y coordinacion.
+  W3C is a resource about community, infrastructure, open web, and standards.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure,

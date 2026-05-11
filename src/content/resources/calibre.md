@@ -1,7 +1,7 @@
 ---
 title: Calibre
 description: >-
-  Gestion de bibliotecas digital; tool para organizar libros y formatos.
+  Calibre is an open-source tool connected to knowledge and libraries.
 
 
   In the OT archive, this entry is tagged as: knowledge, libraries, open-source,

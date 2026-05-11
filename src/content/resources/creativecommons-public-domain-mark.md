@@ -1,7 +1,8 @@
 ---
 title: CC Public Domain Mark
 description: >-
-  Etiqueta para obras en dominio public; facilita reuso cultural.
+  CC Public Domain Mark is a resource about art, free culture, knowledge, and
+  licenses.
 
 
   In the OT archive, this entry is tagged as: art, free-culture, knowledge,

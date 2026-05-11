@@ -1,8 +1,7 @@
 ---
 title: 'Scribus'
 description: >-
-  Software libre de maquetacion para publicaciones, fanzines, libros y
-  material grafico.
+  Scribus is an open-source tool connected to design and publishing.
 
   In the OT archive, this entry is tagged as: design, open-source, publishing,
   tools — a shorthand for the kinds of practice and politics it connects to.

@@ -1,7 +1,8 @@
 ---
 title: Free Software Foundation (FSF)
 description: >-
-  Organization que promueve y defiende el free software y las cuatro libertades.
+  Free Software Foundation (FSF) is an open-source resource connected to
+  community, democracy, and free software.
 
 
   In the OT archive, this entry is tagged as: community, democracy,

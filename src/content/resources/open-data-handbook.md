@@ -1,7 +1,8 @@
 ---
 title: Open Data Handbook
 description: >-
-  Guia practica para publicar y usar open data.
+  Open Data Handbook is a resource about community, guide, knowledge, and open
+  data.
 
 
   In the OT archive, this entry is tagged as: community, guide, knowledge,

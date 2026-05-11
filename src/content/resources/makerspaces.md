@@ -1,7 +1,7 @@
 ---
 title: Makerspaces (movimiento)
 description: >-
-  Talleres compartidos; fabrica comunitaria, pedagogia y tools.
+  Makerspaces (movimiento) is a resource about community, diy, and education.
 
 
   In the OT archive, this entry is tagged as: community, diy, education, tools —

@@ -1,8 +1,7 @@
 ---
 title: 'Godot Engine'
 description: >-
-  Motor de videojuegos libre para crear mundos interactivos y experiencias
-  jugables.
+  Godot Engine is an open-source tool connected to creative coding and games.
 
   In the OT archive, this entry is tagged as: creative-coding, games, open-
   source, tools — a shorthand for the kinds of practice and politics it

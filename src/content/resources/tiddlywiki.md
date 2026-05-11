@@ -1,7 +1,7 @@
 ---
 title: TiddlyWiki
 description: >-
-  Wiki de un solo archive; pensamiento modular y portabilidad.
+  TiddlyWiki is a resource about diy, knowledge, and wikis.
 
 
   In the OT archive, this entry is tagged as: diy, knowledge, tools, wikis — a

@@ -1,8 +1,8 @@
 ---
 title: 'Jami'
 description: >-
-  Comunicacion distribuida para llamadas, mensajes y videollamadas sin
-  servidor central obligatorio.
+  Jami is an open-source resource connected to communication, peer-to-peer
+  systems, and privacy.
 
   In the OT archive, this entry is tagged as: communication, open-source, p2p,
   privacy — a shorthand for the kinds of practice and politics it connects to.

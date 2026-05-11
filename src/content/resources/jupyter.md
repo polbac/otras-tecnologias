@@ -1,8 +1,7 @@
 ---
 title: 'Jupyter'
 description: >-
-  Cuadernos computacionales abiertos para codigo, datos, visualizacion y
-  escritura.
+  Jupyter is an open-source tool connected to education and research.
 
   In the OT archive, this entry is tagged as: education, open-source,
   research, tools — a shorthand for the kinds of practice and politics it

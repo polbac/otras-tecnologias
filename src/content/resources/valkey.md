@@ -1,8 +1,8 @@
 ---
 title: 'Valkey'
 description: >-
-  Almacen clave-valor open-source para cache, colas y datos rapidos en
-  memoria.
+  Valkey is an open-source resource connected to cache, database, and
+  infrastructure.
 
   In the OT archive, this entry is tagged as: cache, database, infrastructure,
   open-source — a shorthand for the kinds of practice and politics it connects

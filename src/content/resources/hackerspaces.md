@@ -1,7 +1,7 @@
 ---
 title: Hackerspaces (movimiento)
 description: >-
-  Espacios comunitarios para hacer, aprender y compartir tools.
+  Hackerspaces (movimiento) is a resource about community, diy, and meetups.
 
 
   In the OT archive, this entry is tagged as: community, diy, meetups, tools — a

@@ -1,7 +1,8 @@
 ---
 title: 'Mutual Aid: A Factor of Evolution'
 description: >-
-  Texto clasico sobre ayuda mutua; genealogia de cooperation y community.
+  Mutual Aid: A Factor of Evolution is a resource about community, history,
+  mutual aid, and theory.
 
 
   In the OT archive, this entry is tagged as: community, history, mutual-aid,

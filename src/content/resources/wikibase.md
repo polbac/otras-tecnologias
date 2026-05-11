@@ -1,7 +1,7 @@
 ---
 title: 'Wikibase'
 description: >-
-  Software para crear bases de conocimiento colaborativas y datos enlazados.
+  Wikibase is an open-source tool connected to knowledge and linked data.
 
   In the OT archive, this entry is tagged as: knowledge, linked-data, open-
   source, tools — a shorthand for the kinds of practice and politics it

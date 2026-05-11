@@ -1,7 +1,8 @@
 ---
 title: Wikidata
 description: >-
-  Base de data open y collaborative; infra para knowledge estructurado.
+  Wikidata is a resource about community, infrastructure, knowledge, and open
+  data.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure,

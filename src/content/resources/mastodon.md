@@ -1,7 +1,8 @@
 ---
 title: Mastodon
 description: >-
-  Red social federada; alternativa comunitaria a plataformas centralizadas.
+  Mastodon is an open-source resource connected to community, decentralization,
+  and social.
 
 
   In the OT archive, this entry is tagged as: community, decentralization,

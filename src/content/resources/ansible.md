@@ -1,8 +1,7 @@
 ---
 title: 'Ansible'
 description: >-
-  Automatizacion declarativa para configurar servidores, servicios y procesos
-  repetibles.
+  Ansible is an open-source tool connected to automation and infrastructure.
 
   In the OT archive, this entry is tagged as: automation, infrastructure,
   open-source, tools — a shorthand for the kinds of practice and politics it

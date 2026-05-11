@@ -1,7 +1,8 @@
 ---
 title: 'Code and Other Laws of Cyberspace'
 description: >-
-  Libro sobre codigo como regulacion y arquitectura politica del ciberespacio.
+  Code and Other Laws of Cyberspace is a book about internet, law, software, and
+  theory.
 
   In the OT archive, this entry is tagged as: books, internet, law, software,
   theory — a shorthand for the kinds of practice and politics it connects to.

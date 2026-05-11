@@ -1,7 +1,7 @@
 ---
 title: Processing
 description: >-
-  Entorno para art generativo y aprendizaje; community y creatividad.
+  Processing is a resource about art, community, and education.
 
 
   In the OT archive, this entry is tagged as: art, community, education, tools —

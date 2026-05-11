@@ -1,8 +1,8 @@
 ---
 title: 'OpenSearch'
 description: >-
-  Suite open-source para busqueda, analitica y observabilidad sobre grandes
-  volumenes de datos.
+  OpenSearch is an open-source resource connected to data, observability, and
+  search.
 
   In the OT archive, this entry is tagged as: data, observability, open-
   source, search — a shorthand for the kinds of practice and politics it

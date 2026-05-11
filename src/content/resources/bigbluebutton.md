@@ -1,7 +1,7 @@
 ---
 title: 'BigBlueButton'
 description: >-
-  Plataforma libre de aulas virtuales y conferencias para educacion online.
+  BigBlueButton is an open-source tool connected to education and video.
 
   In the OT archive, this entry is tagged as: education, open-source, tools,
   video — a shorthand for the kinds of practice and politics it connects to.

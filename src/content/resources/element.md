@@ -1,7 +1,7 @@
 ---
 title: 'Element'
 description: >-
-  Cliente para Matrix que conecta mensajeria federada, cifrado y comunidades.
+  Element is a resource about chat, communication, federation, and Matrix.
 
   In the OT archive, this entry is tagged as: chat, communication, federation,
   matrix — a shorthand for the kinds of practice and politics it connects to.

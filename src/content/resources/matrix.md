@@ -1,7 +1,8 @@
 ---
 title: Matrix
 description: >-
-  Protocol open para communication descentralizada y federada.
+  Matrix is an open-source resource connected to community, decentralization,
+  and protocols.
 
 
   In the OT archive, this entry is tagged as: community, decentralization,

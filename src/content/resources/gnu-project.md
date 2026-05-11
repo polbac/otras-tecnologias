@@ -1,7 +1,8 @@
 ---
 title: GNU Project
 description: >-
-  Project fundacional del free software; tools, licenses y community.
+  GNU Project is an open-source resource connected to community, free software,
+  and history.
 
 
   In the OT archive, this entry is tagged as: community, free-software, history,

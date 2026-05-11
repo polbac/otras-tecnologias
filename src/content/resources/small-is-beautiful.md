@@ -1,8 +1,7 @@
 ---
 title: Small Is Beautiful
 description: >-
-  Economia como si la gente importara; critica al crecimiento y a la
-  tecnocracia.
+  Small Is Beautiful is a book about community, critique, economy, and theory.
 
 
   In the OT archive, this entry is tagged as: community, critique, economy,

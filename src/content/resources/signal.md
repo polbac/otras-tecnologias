@@ -1,8 +1,7 @@
 ---
 title: Signal
 description: >-
-  Mensajeria privada con cifrado de extremo a extremo; enfoque en rights
-  digital.
+  Signal is a resource about community, privacy, and rights.
 
 
   In the OT archive, this entry is tagged as: community, privacy, rights, tools

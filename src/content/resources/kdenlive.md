@@ -1,7 +1,7 @@
 ---
 title: 'Kdenlive'
 description: >-
-  Editor de video libre para produccion audiovisual accesible.
+  Kdenlive is an open-source tool connected to creative coding and video.
 
   In the OT archive, this entry is tagged as: creative-coding, open-source,
   tools, video — a shorthand for the kinds of practice and politics it

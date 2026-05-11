@@ -1,7 +1,7 @@
 ---
 title: 'OBS Studio'
 description: >-
-  Software libre para grabacion, streaming y produccion audiovisual en vivo.
+  OBS Studio is an open-source tool connected to streaming and video.
 
   In the OT archive, this entry is tagged as: open-source, streaming, tools,
   video — a shorthand for the kinds of practice and politics it connects to.

@@ -1,7 +1,7 @@
 ---
 title: Arduino
 description: >-
-  Platform de hardware y software para prototipado; culture maker y DIY.
+  Arduino is a resource about diy, education, and hardware.
 
 
   In the OT archive, this entry is tagged as: diy, education, hardware, tools —

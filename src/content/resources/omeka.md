@@ -1,8 +1,7 @@
 ---
 title: 'Omeka'
 description: >-
-  Plataforma libre para colecciones digitales, exhibiciones y archivos
-  culturales.
+  Omeka is an open-source tool connected to archive and history.
 
   In the OT archive, this entry is tagged as: archive, history, open-source,
   tools — a shorthand for the kinds of practice and politics it connects to.

@@ -1,7 +1,8 @@
 ---
 title: GNU General Public License (GPL)
 description: >-
-  License copyleft clave para cooperation y distribution del software.
+  GNU General Public License (GPL) is an open-source resource connected to
+  cooperation, licenses, and rights.
 
 
   In the OT archive, this entry is tagged as: cooperation, licenses,

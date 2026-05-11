@@ -1,8 +1,7 @@
 ---
 title: 'Jitsi'
 description: >-
-  Herramientas abiertas para videollamadas, reuniones y comunicacion en tiempo
-  real.
+  Jitsi is an open-source tool connected to communication and video.
 
   In the OT archive, this entry is tagged as: communication, open-source,
   tools, video — a shorthand for the kinds of practice and politics it

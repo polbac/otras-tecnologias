@@ -1,7 +1,8 @@
 ---
 title: Contributor Covenant
 description: >-
-  Codigo de conducta para communities; cuidado y limites en projects open.
+  Contributor Covenant is an open-source resource connected to care, community,
+  and community care.
 
 
   In the OT archive, this entry is tagged as: care, community, community-care,

@@ -1,8 +1,7 @@
 ---
 title: 'Tails'
 description: >-
-  Sistema operativo portable enfocado en anonimato, amnesia digital y uso
-  seguro de Tor.
+  Tails is a resource about Linux, privacy, and security.
 
   In the OT archive, this entry is tagged as: linux, privacy, security, tools
   — a shorthand for the kinds of practice and politics it connects to.

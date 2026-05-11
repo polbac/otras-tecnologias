@@ -1,8 +1,7 @@
 ---
 title: Permacomputing
 description: >-
-  Practicas de computacion sostenible: reuse, low-tech, cuidado, y limites
-  materiales.
+  Permacomputing is a resource about critique, diy, energy, and sustainability.
 
 
   In the OT archive, this entry is tagged as: critique, diy, energy,

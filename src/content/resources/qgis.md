@@ -1,8 +1,7 @@
 ---
 title: 'QGIS'
 description: >-
-  Sistema de informacion geografica libre para mapas, datos territoriales y
-  analisis.
+  QGIS is an open-source tool connected to data and maps.
 
   In the OT archive, this entry is tagged as: data, maps, open-source, tools —
   a shorthand for the kinds of practice and politics it connects to.

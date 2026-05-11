@@ -1,8 +1,7 @@
 ---
 title: 'OpenRefine'
 description: >-
-  Herramienta libre para limpiar, transformar y reconciliar datos
-  desordenados.
+  OpenRefine is an open-source tool connected to data and research.
 
   In the OT archive, this entry is tagged as: data, open-source, research,
   tools — a shorthand for the kinds of practice and politics it connects to.

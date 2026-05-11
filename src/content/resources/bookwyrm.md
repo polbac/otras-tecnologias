@@ -1,8 +1,7 @@
 ---
 title: 'BookWyrm'
 description: >-
-  Red social federada para registrar lecturas, descubrir libros y conversar
-  sobre lectura.
+  BookWyrm is a book about community, federation, and reading.
 
   In the OT archive, this entry is tagged as: books, community, federation,
   reading — a shorthand for the kinds of practice and politics it connects to.

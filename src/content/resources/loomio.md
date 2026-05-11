@@ -1,7 +1,7 @@
 ---
 title: Loomio
 description: >-
-  Tool para toma de decisiones colectivas; cooperation online.
+  Loomio is a resource about community, cooperation, and democracy.
 
 
   In the OT archive, this entry is tagged as: community, cooperation, democracy,

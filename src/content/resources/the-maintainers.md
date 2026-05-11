@@ -1,7 +1,8 @@
 ---
 title: The Maintainers
 description: >-
-  Network de research sobre mantenimiento; reparar, sostener y cuidar sistemas.
+  The Maintainers is a resource about community, history, maintenance, and
+  theory.
 
 
   In the OT archive, this entry is tagged as: community, history, maintenance,

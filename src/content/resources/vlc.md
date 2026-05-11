@@ -1,7 +1,7 @@
 ---
 title: 'VLC media player'
 description: >-
-  Reproductor multimedia libre, portable y resistente a formatos cerrados.
+  VLC media player is an open-source tool connected to media and video.
 
   In the OT archive, this entry is tagged as: media, open-source, tools, video
   — a shorthand for the kinds of practice and politics it connects to.

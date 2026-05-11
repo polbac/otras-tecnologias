@@ -1,7 +1,8 @@
 ---
 title: 'Caddy'
 description: >-
-  Servidor web open-source con HTTPS automatico y configuracion simple.
+  Caddy is an open-source resource connected to infrastructure, server, and the
+  web.
 
   In the OT archive, this entry is tagged as: infrastructure, open-source,
   server, web — a shorthand for the kinds of practice and politics it connects

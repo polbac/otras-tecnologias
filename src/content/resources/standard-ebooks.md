@@ -1,7 +1,8 @@
 ---
 title: Standard Ebooks
 description: >-
-  Ediciones cuidadas de libros en dominio public; calidad como forma de cuidado.
+  Standard Ebooks is a resource about archive, care, libraries, and the public
+  domain.
 
 
   In the OT archive, this entry is tagged as: archive, care, libraries,

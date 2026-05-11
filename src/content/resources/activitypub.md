@@ -1,7 +1,8 @@
 ---
 title: ActivityPub
 description: >-
-  Standard open para networks sociales federadas (el 'correo' de lo social).
+  ActivityPub is a resource about decentralization, protocols, social, and
+  standards.
 
 
   In the OT archive, this entry is tagged as: decentralization, protocols,

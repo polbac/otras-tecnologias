@@ -1,8 +1,7 @@
 ---
 title: 'Qubes OS'
 description: >-
-  Sistema operativo que usa compartimentacion para aislar actividades y
-  reducir riesgo.
+  Qubes OS is an open-source tool connected to operating systems and security.
 
   In the OT archive, this entry is tagged as: open-source, operating-systems,
   security, tools — a shorthand for the kinds of practice and politics it

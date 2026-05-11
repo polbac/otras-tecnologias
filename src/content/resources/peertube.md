@@ -1,8 +1,8 @@
 ---
 title: 'PeerTube'
 description: >-
-  Plataforma federada de video para hospedar y compartir contenido fuera de
-  silos centrales.
+  PeerTube is an open-source resource connected to federation, platforms, and
+  video.
 
   In the OT archive, this entry is tagged as: federation, open-source,
   platforms, video — a shorthand for the kinds of practice and politics it

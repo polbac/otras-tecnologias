@@ -1,7 +1,8 @@
 ---
 title: Open Source Definition
 description: >-
-  Definicion historica de open source; criterios para licenses y distribution.
+  Open Source Definition is an open-source resource connected to history,
+  licenses, and theory.
 
 
   In the OT archive, this entry is tagged as: history, licenses, open-source,

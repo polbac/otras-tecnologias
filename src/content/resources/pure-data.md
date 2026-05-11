@@ -1,7 +1,7 @@
 ---
 title: Pure Data (Pd)
 description: >-
-  Programacion visual para audio y multimedia; culture DIY y experimentacion.
+  Pure Data (Pd) is a resource about art, audio, and diy.
 
 
   In the OT archive, this entry is tagged as: art, audio, diy, tools — a

@@ -1,7 +1,8 @@
 ---
 title: Library Genesis (debate sobre bibliotecas)
 description: >-
-  Archive no-oficial de libros; tension entre acceso, legalidad y community.
+  Library Genesis (debate sobre bibliotecas) is a resource about archive,
+  debate, knowledge, and libraries.
 
 
   In the OT archive, this entry is tagged as: archive, debate, knowledge,

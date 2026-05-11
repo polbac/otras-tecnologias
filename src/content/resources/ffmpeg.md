@@ -1,8 +1,7 @@
 ---
 title: 'FFmpeg'
 description: >-
-  Herramienta fundamental para grabar, convertir, procesar y transmitir
-  audio/video.
+  FFmpeg is an open-source tool connected to infrastructure and media.
 
   In the OT archive, this entry is tagged as: infrastructure, media, open-
   source, tools — a shorthand for the kinds of practice and politics it

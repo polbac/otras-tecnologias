@@ -1,7 +1,7 @@
 ---
 title: Syncthing
 description: >-
-  Sincronizacion P2P; data bajo control propio en network.
+  Syncthing is an open-source tool connected to decentralization and privacy.
 
 
   In the OT archive, this entry is tagged as: decentralization, open-source,

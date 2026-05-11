@@ -1,7 +1,8 @@
 ---
 title: Open Knowledge Foundation
 description: >-
-  Organization por el knowledge open; data, communities y tools.
+  Open Knowledge Foundation is a resource about community, knowledge, open data,
+  and politics.
 
 
   In the OT archive, this entry is tagged as: community, knowledge, open-data,

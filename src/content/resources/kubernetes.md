@@ -1,7 +1,8 @@
 ---
 title: 'Kubernetes'
 description: >-
-  Sistema open-source para orquestar contenedores y servicios distribuidos.
+  Kubernetes is an open-source resource connected to cloud, containers, and
+  infrastructure.
 
   In the OT archive, this entry is tagged as: cloud, containers,
   infrastructure, open-source — a shorthand for the kinds of practice and

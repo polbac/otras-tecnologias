@@ -1,7 +1,7 @@
 ---
 title: Inkscape
 description: >-
-  Editor vectorial free; util para grafica, diagramas y publicaciones.
+  Inkscape is an open-source tool connected to art and community.
 
 
   In the OT archive, this entry is tagged as: art, community, open-source, tools

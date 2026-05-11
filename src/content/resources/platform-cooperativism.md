@@ -1,7 +1,8 @@
 ---
 title: Platform Cooperativism
 description: >-
-  Marco teorico y practico sobre platforms cooperativas y propiedad colectiva.
+  Platform Cooperativism is a resource about community, cooperatives, economy,
+  and theory.
 
 
   In the OT archive, this entry is tagged as: community, cooperatives, economy,

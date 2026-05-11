@@ -1,8 +1,8 @@
 ---
 title: 'Node.js'
 description: >-
-  Runtime de JavaScript para servidores, herramientas de desarrollo y
-  aplicaciones en red.
+  Node.js is an open-source resource connected to infrastructure, JavaScript,
+  and the web.
 
   In the OT archive, this entry is tagged as: infrastructure, javascript,
   open-source, web — a shorthand for the kinds of practice and politics it

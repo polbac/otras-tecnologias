@@ -1,7 +1,7 @@
 ---
 title: Tools for Conviviality
 description: >-
-  Tools conviviales; pensar tecnologia, poder y autonomy.
+  Tools for Conviviality is a book about community, history, and theory.
 
 
   In the OT archive, this entry is tagged as: community, history, theory, tools

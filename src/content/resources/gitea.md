@@ -1,7 +1,7 @@
 ---
 title: 'Gitea'
 description: >-
-  Forja Git ligera para hospedar codigo, issues, pull requests y paquetes.
+  Gitea is an open-source tool connected to Git and self-hosting.
 
   In the OT archive, this entry is tagged as: git, open-source, self-hosting,
   tools — a shorthand for the kinds of practice and politics it connects to.

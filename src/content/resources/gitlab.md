@@ -1,7 +1,7 @@
 ---
 title: 'GitLab'
 description: >-
-  Plataforma de desarrollo colaborativo, CI/CD y gestion de repositorios Git.
+  GitLab is an open-source tool connected to devops and Git.
 
   In the OT archive, this entry is tagged as: devops, git, open-source, tools
   — a shorthand for the kinds of practice and politics it connects to.

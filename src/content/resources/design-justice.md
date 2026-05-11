@@ -1,8 +1,7 @@
 ---
 title: Design Justice
 description: >-
-  Libro sobre practicas de diseno centradas en comunidades, poder, reparacion y
-  movimientos sociales.
+  Design Justice is a book about community, design, justice, and politics.
 
 
   In the OT archive, this entry is tagged as: community, design, justice,

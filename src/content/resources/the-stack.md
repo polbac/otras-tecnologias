@@ -1,7 +1,7 @@
 ---
 title: The Stack
 description: >-
-  Libro sobre computacion planetaria, soberania, plataformas e infraestructura.
+  The Stack is a book about infrastructure, politics, software, and sovereignty.
 
 
   In the OT archive, this entry is tagged as: infrastructure, politics,

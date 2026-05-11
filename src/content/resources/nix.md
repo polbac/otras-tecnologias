@@ -1,7 +1,7 @@
 ---
 title: 'Nix'
 description: >-
-  Sistema de paquetes y configuracion reproducible para entornos declarativos.
+  Nix is an open-source tool connected to packages and reproducibility.
 
   In the OT archive, this entry is tagged as: open-source, packages,
   reproducibility, tools — a shorthand for the kinds of practice and politics

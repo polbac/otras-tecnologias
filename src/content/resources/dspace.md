@@ -1,7 +1,7 @@
 ---
 title: 'DSpace'
 description: >-
-  Repositorio digital open-source para universidades, bibliotecas y archivos.
+  DSpace is a resource about archive, libraries, and open access.
 
   In the OT archive, this entry is tagged as: archive, libraries, open-access,
   tools — a shorthand for the kinds of practice and politics it connects to.

@@ -1,7 +1,7 @@
 ---
 title: Tor Project
 description: >-
-  Tools para privacy y libertad de communication en networks.
+  Tor Project is a resource about community, free software, privacy, and rights.
 
 
   In the OT archive, this entry is tagged as: community, free-software, privacy,

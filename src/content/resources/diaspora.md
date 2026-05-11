@@ -1,7 +1,8 @@
 ---
 title: Diaspora*
 description: >-
-  Network social descentralizada temprana; history de alternativas a platforms.
+  Diaspora* is a resource about community, decentralization, history, and
+  social.
 
 
   In the OT archive, this entry is tagged as: community, decentralization,

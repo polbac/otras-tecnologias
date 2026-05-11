@@ -1,8 +1,7 @@
 ---
 title: 'Grafana'
 description: >-
-  Plataforma open-source para dashboards, metricas, logs y visualizacion
-  operacional.
+  Grafana is an open-source tool connected to data and observability.
 
   In the OT archive, this entry is tagged as: data, observability, open-
   source, tools — a shorthand for the kinds of practice and politics it

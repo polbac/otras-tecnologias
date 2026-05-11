@@ -1,7 +1,8 @@
 ---
 title: IPFS
 description: >-
-  Sistema de archives distribuido; pensar archives y memoria en network.
+  IPFS is a resource about archive, decentralization, infrastructure, and peer-
+  to-peer systems.
 
 
   In the OT archive, this entry is tagged as: archive, decentralization,

@@ -1,8 +1,7 @@
 ---
 title: 'Podman'
 description: >-
-  Herramienta libre para ejecutar y gestionar contenedores sin demonio
-  central.
+  Podman is an open-source tool connected to containers and infrastructure.
 
   In the OT archive, this entry is tagged as: containers, infrastructure,
   open-source, tools — a shorthand for the kinds of practice and politics it

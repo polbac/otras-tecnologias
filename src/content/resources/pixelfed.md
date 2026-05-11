@@ -1,8 +1,8 @@
 ---
 title: 'Pixelfed'
 description: >-
-  Red federada para compartir imagenes, inspirada en flujos sociales de
-  fotografia.
+  Pixelfed is an open-source resource connected to federation, photos, and
+  platforms.
 
   In the OT archive, this entry is tagged as: federation, open-source, photos,
   platforms — a shorthand for the kinds of practice and politics it connects

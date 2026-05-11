@@ -1,8 +1,8 @@
 ---
 title: 'Open Food Network'
 description: >-
-  Plataforma abierta para redes alimentarias locales, cooperativas y mercados
-  comunitarios.
+  Open Food Network is a platform connected to community, cooperation, food, and
+  platforms.
 
   In the OT archive, this entry is tagged as: community, cooperation, food,
   platforms — a shorthand for the kinds of practice and politics it connects

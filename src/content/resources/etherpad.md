@@ -1,8 +1,7 @@
 ---
 title: 'Etherpad'
 description: >-
-  Editor colaborativo en tiempo real para notas, asambleas, actas y escritura
-  colectiva.
+  Etherpad is an open-source tool connected to collaboration and writing.
 
   In the OT archive, this entry is tagged as: collaboration, open-source,
   tools, writing — a shorthand for the kinds of practice and politics it

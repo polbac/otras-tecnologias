@@ -1,7 +1,8 @@
 ---
 title: Mozilla
 description: >-
-  Organization por una web open; tools, standards y community.
+  Mozilla is an open-source resource connected to community, infrastructure, and
+  open web.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure,

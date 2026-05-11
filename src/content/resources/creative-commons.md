@@ -1,7 +1,8 @@
 ---
 title: Creative Commons
 description: >-
-  Licenses para compartir culture y knowledge; puente entre art y acceso.
+  Creative Commons is a resource about art, community, free culture, and
+  licenses.
 
 
   In the OT archive, this entry is tagged as: art, community, free-culture,

@@ -1,8 +1,8 @@
 ---
 title: 'PostgreSQL'
 description: >-
-  Base de datos relacional libre, robusta y extensible para aplicaciones e
-  instituciones.
+  PostgreSQL is an open-source resource connected to data, database, and
+  infrastructure.
 
   In the OT archive, this entry is tagged as: data, database, infrastructure,
   open-source — a shorthand for the kinds of practice and politics it connects

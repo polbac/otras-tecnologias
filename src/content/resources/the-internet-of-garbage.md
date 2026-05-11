@@ -1,8 +1,8 @@
 ---
 title: 'The Internet of Garbage'
 description: >-
-  Libro breve sobre acoso, moderacion y basura social en plataformas
-  digitales.
+  The Internet of Garbage is a book about culture, internet, moderation, and
+  platforms.
 
   In the OT archive, this entry is tagged as: books, culture, internet,
   moderation, platforms — a shorthand for the kinds of practice and politics

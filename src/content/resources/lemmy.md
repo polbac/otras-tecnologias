@@ -1,7 +1,8 @@
 ---
 title: 'Lemmy'
 description: >-
-  Agregador y foro federado para comunidades, enlaces y discusiones.
+  Lemmy is an open-source resource connected to community, federation, and
+  platforms.
 
   In the OT archive, this entry is tagged as: community, federation, open-
   source, platforms — a shorthand for the kinds of practice and politics it

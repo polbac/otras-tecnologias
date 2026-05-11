@@ -1,8 +1,7 @@
 ---
 title: 'Go'
 description: >-
-  Lenguaje de programacion para servicios, herramientas de red e
-  infraestructura distribuida.
+  Go is an open-source tool connected to infrastructure and programming.
 
   In the OT archive, this entry is tagged as: infrastructure, open-source,
   programming, tools — a shorthand for the kinds of practice and politics it

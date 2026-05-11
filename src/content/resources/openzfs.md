@@ -1,7 +1,8 @@
 ---
 title: OpenZFS
 description: >-
-  Sistema de archives avanzado; infrastructure y resiliencia como valores.
+  OpenZFS is an open-source resource connected to community, infrastructure, and
+  resilience.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure,

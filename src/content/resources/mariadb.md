@@ -1,7 +1,8 @@
 ---
 title: 'MariaDB'
 description: >-
-  Base de datos relacional libre nacida como fork comunitario de MySQL.
+  MariaDB is an open-source resource connected to data, database, and
+  infrastructure.
 
   In the OT archive, this entry is tagged as: data, database, infrastructure,
   open-source — a shorthand for the kinds of practice and politics it connects

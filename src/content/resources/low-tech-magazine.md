@@ -1,8 +1,7 @@
 ---
 title: Low-tech Magazine
 description: >-
-  Critica tecnologica y energy; perspectivas sobre progreso y limites
-  materiales.
+  Low-tech Magazine is a resource about critique, energy, progress, and theory.
 
 
   In the OT archive, this entry is tagged as: critique, energy, progress, theory

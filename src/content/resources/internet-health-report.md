@@ -1,7 +1,8 @@
 ---
 title: Internet Health Report (archivo)
 description: >-
-  Reportes sobre salud de internet; poder, privacy, inclusion y futuro.
+  Internet Health Report (archivo) is a resource about archive, open web,
+  politics, and privacy.
 
 
   In the OT archive, this entry is tagged as: archive, open-web, politics,

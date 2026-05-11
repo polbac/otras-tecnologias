@@ -1,7 +1,7 @@
 ---
 title: 'darktable'
 description: >-
-  Workflow fotografico libre para revelar y organizar imagenes RAW.
+  darktable is an open-source tool connected to media and photography.
 
   In the OT archive, this entry is tagged as: media, open-source, photography,
   tools — a shorthand for the kinds of practice and politics it connects to.

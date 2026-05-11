@@ -1,7 +1,8 @@
 ---
 title: Internet Archive
 description: >-
-  Archive digital de la web y medios; memoria colectiva y acceso public.
+  Internet Archive is a resource about archive, community, history, and
+  knowledge.
 
 
   In the OT archive, this entry is tagged as: archive, community, history,

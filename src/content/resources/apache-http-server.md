@@ -1,8 +1,8 @@
 ---
 title: 'Apache HTTP Server'
 description: >-
-  Servidor web libre que ayudo a definir la web temprana y sus practicas de
-  hospedaje.
+  Apache HTTP Server is an open-source resource connected to infrastructure,
+  server, and the web.
 
   In the OT archive, this entry is tagged as: infrastructure, open-source,
   server, web — a shorthand for the kinds of practice and politics it connects

@@ -1,7 +1,7 @@
 ---
 title: Decidim
 description: >-
-  Platform free para participation democratica; procesos y transparencia.
+  Decidim is an open-source tool connected to community and democracy.
 
 
   In the OT archive, this entry is tagged as: community, democracy, open-source,

@@ -1,8 +1,8 @@
 ---
 title: Linux Kernel
 description: >-
-  Kernel de sistema operativo desarrollado de forma collaborative a escala
-  planetaria.
+  Linux Kernel is an open-source resource connected to history, infrastructure,
+  and Linux.
 
 
   In the OT archive, this entry is tagged as: history, infrastructure, linux,

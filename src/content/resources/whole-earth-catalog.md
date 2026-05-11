@@ -1,7 +1,7 @@
 ---
 title: Whole Earth Catalog
 description: >-
-  Catalogo de tools, ideas y tecnicas; antecesor cultural de la web.
+  Whole Earth Catalog is a resource about archive, community, and history.
 
 
   In the OT archive, this entry is tagged as: archive, community, history, tools

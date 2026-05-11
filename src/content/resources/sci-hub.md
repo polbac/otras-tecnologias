@@ -1,8 +1,8 @@
 ---
 title: Sci-Hub (debate sobre acceso)
 description: >-
-  Nodo polemico sobre acceso a articulos academicos; sirve para pensar
-  infrastructure y desigualdad.
+  Sci-Hub (debate sobre acceso) is a resource about archive, debate, knowledge,
+  and politics.
 
 
   In the OT archive, this entry is tagged as: archive, debate, knowledge,

@@ -1,8 +1,8 @@
 ---
 title: 'Prometheus'
 description: >-
-  Sistema open-source de monitoreo y alertas basado en metricas y series
-  temporales.
+  Prometheus is an open-source resource connected to infrastructure, metrics,
+  and observability.
 
   In the OT archive, this entry is tagged as: infrastructure, metrics,
   observability, open-source — a shorthand for the kinds of practice and

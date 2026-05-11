@@ -1,8 +1,7 @@
 ---
 title: 'Inventaire'
 description: >-
-  Catalogo colaborativo para libros, bibliotecas personales y circulacion de
-  lecturas.
+  Inventaire is a book about commons, community, and knowledge.
 
   In the OT archive, this entry is tagged as: books, commons, community,
   knowledge — a shorthand for the kinds of practice and politics it connects

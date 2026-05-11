@@ -1,8 +1,7 @@
 ---
 title: 'Python'
 description: >-
-  Lenguaje de programacion general usado en educacion, ciencia, web,
-  automatizacion y arte.
+  Python is an open-source tool connected to education and programming.
 
   In the OT archive, this entry is tagged as: education, open-source,
   programming, tools — a shorthand for the kinds of practice and politics it

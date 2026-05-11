@@ -1,8 +1,7 @@
 ---
 title: 'R Project'
 description: >-
-  Lenguaje y entorno libre para estadistica, datos, visualizacion e
-  investigacion.
+  R Project is an open-source tool connected to research and statistics.
 
   In the OT archive, this entry is tagged as: open-source, research,
   statistics, tools — a shorthand for the kinds of practice and politics it

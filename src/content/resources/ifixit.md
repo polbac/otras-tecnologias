@@ -1,7 +1,7 @@
 ---
 title: iFixit
 description: >-
-  Guias de reparacion y culture de mantenimiento; knowledge practico open.
+  iFixit is a resource about diy, hardware, and knowledge.
 
 
   In the OT archive, this entry is tagged as: diy, hardware, knowledge, tools —

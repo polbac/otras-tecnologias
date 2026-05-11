@@ -1,8 +1,8 @@
 ---
 title: CoopCycle
 description: >-
-  Platform para cooperativas de delivery; tecnologia al servicio de trabajo
-  cooperativo.
+  CoopCycle is an open-source resource connected to community, cooperatives, and
+  economy.
 
 
   In the OT archive, this entry is tagged as: community, cooperatives, economy,

@@ -1,7 +1,7 @@
 ---
 title: Home Assistant
 description: >-
-  Automatizacion del hogar local y extensible; alternativa a platforms cerradas.
+  Home Assistant is an open-source tool connected to diy and self-hosting.
 
 
   In the OT archive, this entry is tagged as: diy, open-source, self-hosting,

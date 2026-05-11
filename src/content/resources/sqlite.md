@@ -1,7 +1,7 @@
 ---
 title: 'SQLite'
 description: >-
-  Base de datos embebida, pequena y ubicua, liberada al dominio publico.
+  SQLite is a resource about database, infrastructure, and the public domain.
 
   In the OT archive, this entry is tagged as: database, infrastructure,
   public-domain, tools — a shorthand for the kinds of practice and politics it

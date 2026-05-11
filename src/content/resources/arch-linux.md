@@ -1,8 +1,8 @@
 ---
 title: Arch Linux
 description: >-
-  Distribution minimalista con filosofia KISS; culture de documentation
-  comunitaria.
+  Arch Linux is an open-source resource connected to community, infrastructure,
+  and Linux.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure, linux,

@@ -1,7 +1,7 @@
 ---
 title: 'DuckDB'
 description: >-
-  Base analitica embebida para consultar datos localmente con SQL.
+  DuckDB is an open-source resource connected to analytics, data, and database.
 
   In the OT archive, this entry is tagged as: analytics, data, database, open-
   source — a shorthand for the kinds of practice and politics it connects to.

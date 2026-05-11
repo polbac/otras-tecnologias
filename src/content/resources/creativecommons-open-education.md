@@ -1,7 +1,8 @@
 ---
 title: Open Education (OER)
 description: >-
-  Open educational resources; pedagogia como bien comun.
+  Open Education (OER) is a resource about commons, education, free culture, and
+  knowledge.
 
 
   In the OT archive, this entry is tagged as: commons, education, free-culture,

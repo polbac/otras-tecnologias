@@ -1,8 +1,7 @@
 ---
 title: 'Excalidraw'
 description: >-
-  Pizarra colaborativa de dibujo simple para diagramas, notas y bocetos
-  compartidos.
+  Excalidraw is an open-source tool connected to collaboration and drawing.
 
   In the OT archive, this entry is tagged as: collaboration, drawing, open-
   source, tools — a shorthand for the kinds of practice and politics it

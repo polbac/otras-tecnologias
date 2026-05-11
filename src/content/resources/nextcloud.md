@@ -1,7 +1,7 @@
 ---
 title: Nextcloud
 description: >-
-  Nube auto-alojada; cooperation y soberania tecnologica.
+  Nextcloud is an open-source tool connected to community and self-hosting.
 
 
   In the OT archive, this entry is tagged as: community, open-source,

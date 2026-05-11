@@ -1,7 +1,7 @@
 ---
 title: Krita
 description: >-
-  Pintura digital libre; herramienta artistica comunitaria.
+  Krita is an open-source tool connected to art and community.
 
 
   In the OT archive, this entry is tagged as: art, community, open-source, tools

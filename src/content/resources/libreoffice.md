@@ -1,8 +1,7 @@
 ---
 title: 'LibreOffice'
 description: >-
-  Suite ofimatica libre para documentos, planillas, presentaciones y formatos
-  abiertos.
+  LibreOffice is an open-source tool connected to documents and office.
 
   In the OT archive, this entry is tagged as: documents, office, open-source,
   tools — a shorthand for the kinds of practice and politics it connects to.

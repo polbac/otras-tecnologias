@@ -1,7 +1,7 @@
 ---
 title: 'Firefox'
 description: >-
-  Navegador libre orientado a web abierta, privacidad y extensibilidad.
+  Firefox is an open-source resource connected to browser, privacy, and the web.
 
   In the OT archive, this entry is tagged as: browser, open-source, privacy,
   web — a shorthand for the kinds of practice and politics it connects to.

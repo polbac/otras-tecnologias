@@ -1,7 +1,8 @@
 ---
 title: Software Freedom Conservancy
 description: >-
-  Soporte legal/administrativo para projects free; infrastructure institucional.
+  Software Freedom Conservancy is an open-source resource connected to
+  community, infrastructure, and rights.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure,

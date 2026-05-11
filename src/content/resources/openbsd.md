@@ -1,7 +1,8 @@
 ---
 title: OpenBSD
 description: >-
-  Sistema centrado en security y calidad; culture de simplicidad y auditoria.
+  OpenBSD is an open-source resource connected to community, infrastructure, and
+  security.
 
 
   In the OT archive, this entry is tagged as: community, infrastructure,

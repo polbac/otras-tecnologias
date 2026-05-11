@@ -1,7 +1,8 @@
 ---
 title: Gentoo Linux
 description: >-
-  Distribution orientada a construccion y optimizacion; community y aprendizaje.
+  Gentoo Linux is an open-source resource connected to community, education, and
+  Linux.
 
 
   In the OT archive, this entry is tagged as: community, education, linux,

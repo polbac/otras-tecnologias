@@ -1,7 +1,8 @@
 ---
 title: Dat / Hypercore ecosystem
 description: >-
-  Tools P2P para compartir datasets y archives; science open y archives.
+  Dat / Hypercore ecosystem is a resource about archive, open data, and peer-to-
+  peer systems.
 
 
   In the OT archive, this entry is tagged as: archive, open-data, p2p, tools — a

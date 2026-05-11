@@ -1,7 +1,7 @@
 ---
 title: BorgBackup
 description: >-
-  Backups deduplicados y verificados; cuidado y mantenimiento como practica.
+  BorgBackup is an open-source tool connected to infrastructure and resilience.
 
 
   In the OT archive, this entry is tagged as: infrastructure, open-source,

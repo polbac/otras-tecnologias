@@ -1,7 +1,7 @@
 ---
 title: GIMP
 description: >-
-  Edicion de imagen free; history larga del ecosistema de tools abiertas.
+  GIMP is an open-source tool connected to art and history.
 
 
   In the OT archive, this entry is tagged as: art, history, open-source, tools —

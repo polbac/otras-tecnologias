@@ -1,7 +1,8 @@
 ---
 title: Secure Scuttlebutt (SSB)
 description: >-
-  Network social P2P offline-friendly; community y experimentos de confianza.
+  Secure Scuttlebutt (SSB) is a resource about community, decentralization,
+  peer-to-peer systems, and social.
 
 
   In the OT archive, this entry is tagged as: community, decentralization, p2p,

@@ -1,7 +1,7 @@
 ---
 title: 'Penpot'
 description: >-
-  Herramienta de diseno y prototipado open-source basada en estandares web.
+  Penpot is an open-source tool connected to design and the web.
 
   In the OT archive, this entry is tagged as: design, open-source, tools, web
   — a shorthand for the kinds of practice and politics it connects to.

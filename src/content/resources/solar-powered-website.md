@@ -1,7 +1,8 @@
 ---
 title: A Solar Powered Website
 description: >-
-  Sitio low-tech como practica; pensar energy, forma y politics de la web.
+  A Solar Powered Website is a resource about critique, design, energy, and open
+  web.
 
 
   In the OT archive, this entry is tagged as: critique, design, energy, open-web

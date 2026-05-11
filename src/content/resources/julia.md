@@ -1,8 +1,7 @@
 ---
 title: 'Julia'
 description: >-
-  Lenguaje de alto rendimiento para ciencia, datos, simulacion y computacion
-  tecnica.
+  Julia is an open-source tool connected to programming and research.
 
   In the OT archive, this entry is tagged as: open-source, programming,
   research, tools — a shorthand for the kinds of practice and politics it

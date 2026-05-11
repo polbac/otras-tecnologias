@@ -1,7 +1,7 @@
 ---
 title: p5.js
 description: >-
-  Biblioteca JS para art y education creativa; accesible y comunitaria.
+  p5.js is a resource about art, community, and education.
 
 
   In the OT archive, this entry is tagged as: art, community, education, tools —

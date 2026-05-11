@@ -1,8 +1,8 @@
 ---
 title: 'WriteFreely'
 description: >-
-  Plataforma minimalista y federada para blogs, escritura personal y
-  publicaciones colectivas.
+  WriteFreely is an open-source resource connected to federation, platforms, and
+  writing.
 
   In the OT archive, this entry is tagged as: federation, open-source,
   platforms, writing — a shorthand for the kinds of practice and politics it

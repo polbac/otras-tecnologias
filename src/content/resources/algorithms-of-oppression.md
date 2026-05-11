@@ -1,8 +1,8 @@
 ---
 title: 'Algorithms of Oppression'
 description: >-
-  Libro sobre racismo, motores de busqueda y las politicas invisibles de la
-  informacion.
+  Algorithms of Oppression is a book about algorithms, justice, search, and
+  theory.
 
   In the OT archive, this entry is tagged as: algorithms, books, justice,
   search, theory — a shorthand for the kinds of practice and politics it

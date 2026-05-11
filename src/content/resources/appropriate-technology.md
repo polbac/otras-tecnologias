@@ -1,7 +1,8 @@
 ---
 title: Appropriate technology (concepto)
 description: >-
-  Tecnologia apropiada: tools situadas, accesibles, y orientadas al bien comun.
+  Appropriate technology (concepto) is a resource about community, critique,
+  progress, and theory.
 
 
   In the OT archive, this entry is tagged as: community, critique, progress,

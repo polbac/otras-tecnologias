@@ -1,8 +1,8 @@
 ---
 title: 'The People''s Platform'
 description: >-
-  Libro sobre cultura digital, promesas incumplidas de internet y poder
-  corporativo.
+  The People's Platform is a book about culture, internet, platforms, and
+  politics.
 
   In the OT archive, this entry is tagged as: books, culture, internet,
   platforms, politics — a shorthand for the kinds of practice and politics it

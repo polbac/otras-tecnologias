@@ -1,7 +1,7 @@
 ---
 title: 'RawTherapee'
 description: >-
-  Procesador RAW libre para fotografia digital y experimentacion visual.
+  RawTherapee is an open-source tool connected to media and photography.
 
   In the OT archive, this entry is tagged as: media, open-source, photography,
   tools — a shorthand for the kinds of practice and politics it connects to.

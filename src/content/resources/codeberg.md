@@ -1,8 +1,7 @@
 ---
 title: 'Codeberg'
 description: >-
-  Forja Git sin fines de lucro para proyectos libres y comunidades de
-  software.
+  Codeberg is an open-source resource connected to commons, community, and Git.
 
   In the OT archive, this entry is tagged as: commons, community, git, open-
   source — a shorthand for the kinds of practice and politics it connects to.

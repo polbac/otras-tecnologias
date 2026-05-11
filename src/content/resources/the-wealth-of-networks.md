@@ -1,7 +1,7 @@
 ---
 title: 'The Wealth of Networks'
 description: >-
-  Libro sobre produccion social, redes, commons y economias de colaboracion.
+  The Wealth of Networks is a book about commons, networks, and theory.
 
   In the OT archive, this entry is tagged as: books, commons, networks, open-
   source, theory — a shorthand for the kinds of practice and politics it

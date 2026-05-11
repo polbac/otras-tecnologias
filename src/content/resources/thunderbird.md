@@ -1,8 +1,7 @@
 ---
 title: 'Thunderbird'
 description: >-
-  Cliente de email open-source para correo, calendarios y comunicacion
-  personal.
+  Thunderbird is an open-source tool connected to communication and email.
 
   In the OT archive, this entry is tagged as: communication, email, open-
   source, tools — a shorthand for the kinds of practice and politics it

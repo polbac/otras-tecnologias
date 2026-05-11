@@ -1,8 +1,8 @@
 ---
 title: 'Humanitarian OpenStreetMap Team'
 description: >-
-  Comunidad que usa mapeo abierto para respuesta humanitaria y resiliencia
-  local.
+  Humanitarian OpenStreetMap Team is a resource about community, humanitarian,
+  maps, and open data.
 
   In the OT archive, this entry is tagged as: community, humanitarian, maps,
   open-data — a shorthand for the kinds of practice and politics it connects

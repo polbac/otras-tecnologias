@@ -1,7 +1,7 @@
 ---
 title: LMMS
 description: >-
-  Produccion musical free; alternativa comunitaria para crear sonidos.
+  LMMS is an open-source tool connected to art and audio.
 
 
   In the OT archive, this entry is tagged as: art, audio, open-source, tools — a

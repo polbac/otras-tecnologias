@@ -1,8 +1,8 @@
 ---
 title: 'nginx'
 description: >-
-  Servidor web y proxy reverso usado ampliamente para aplicaciones y sitios de
-  alto trafico.
+  nginx is an open-source resource connected to infrastructure, server, and the
+  web.
 
   In the OT archive, this entry is tagged as: infrastructure, open-source,
   server, web — a shorthand for the kinds of practice and politics it connects

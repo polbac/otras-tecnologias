@@ -1,7 +1,8 @@
 ---
 title: 'Let''s Encrypt'
 description: >-
-  Autoridad certificadora gratuita y automatizada para HTTPS en la web.
+  Let's Encrypt is a resource about infrastructure, public goods, security, and
+  the web.
 
   In the OT archive, this entry is tagged as: infrastructure, public-good,
   security, web — a shorthand for the kinds of practice and politics it

@@ -1,7 +1,8 @@
 ---
 title: Public Library / Memory of the World
 description: >-
-  Projects artistico-politicos sobre bibliotecas, acceso y knowledge comun.
+  Public Library / Memory of the World is a resource about art, community,
+  knowledge, and libraries.
 
 
   In the OT archive, this entry is tagged as: art, community, knowledge,

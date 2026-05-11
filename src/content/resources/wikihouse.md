@@ -1,7 +1,7 @@
 ---
 title: WikiHouse
 description: >-
-  Arquitectura open y modular; DIY y community para construir en comun.
+  WikiHouse is a resource about arquitectura, community, and diy.
 
 
   In the OT archive, this entry is tagged as: arquitectura, community, diy,

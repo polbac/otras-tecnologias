@@ -1,7 +1,8 @@
 ---
 title: Creative Commons Licenses
 description: >-
-  Set de licenses para compartir obras bajo condiciones claras.
+  Creative Commons Licenses is a resource about art, community, free culture,
+  and licenses.
 
 
   In the OT archive, this entry is tagged as: art, community, free-culture,

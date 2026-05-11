@@ -1,8 +1,8 @@
 ---
 title: Governing the Commons
 description: >-
-  Theory sobre gestion comunitaria de bienes comunes; base para pensar
-  infraestructuras.
+  Governing the Commons is a book about commons, community, democracy, and
+  theory.
 
 
   In the OT archive, this entry is tagged as: commons, community, democracy,

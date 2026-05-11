@@ -1,7 +1,8 @@
 ---
 title: Project Gutenberg
 description: >-
-  Biblioteca de libros en dominio public; archive de lectura distribuida.
+  Project Gutenberg is a resource about archive, knowledge, libraries, and the
+  public domain.
 
 
   In the OT archive, this entry is tagged as: archive, knowledge, libraries,

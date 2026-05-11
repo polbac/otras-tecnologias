@@ -1,7 +1,7 @@
 ---
 title: Linux From Scratch
 description: >-
-  Guia para construir un sistema Linux desde cero; aprendizaje profundo y DIY.
+  Linux From Scratch is a resource about diy, education, and Linux.
 
 
   In the OT archive, this entry is tagged as: diy, education, linux, tools — a

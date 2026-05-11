@@ -1,8 +1,8 @@
 ---
 title: 'Seeing Like a State'
 description: >-
-  Libro sobre legibilidad estatal, planificacion, simplificacion y fracasos de
-  alto modernismo.
+  Seeing Like a State is a book about infrastructure, politics, state, and
+  theory.
 
   In the OT archive, this entry is tagged as: books, infrastructure, politics,
   state, theory — a shorthand for the kinds of practice and politics it

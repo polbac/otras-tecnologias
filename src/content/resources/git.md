@@ -1,7 +1,7 @@
 ---
 title: Git
 description: >-
-  Control de versiones distribuido; tool de cooperation y trazabilidad.
+  Git is an open-source tool connected to cooperation and infrastructure.
 
 
   In the OT archive, this entry is tagged as: cooperation, infrastructure,

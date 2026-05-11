@@ -1,7 +1,7 @@
 ---
 title: Soldering Is Easy
 description: >-
-  Historieta/guia DIY para aprender a soldar; pedagogia accesible.
+  Soldering Is Easy is a resource about comics, diy, education, and hardware.
 
 
   In the OT archive, this entry is tagged as: comics, diy, education, hardware —

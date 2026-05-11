@@ -1,8 +1,7 @@
 ---
 title: 'WireGuard'
 description: >-
-  VPN moderna, pequena y auditable para conexiones seguras entre dispositivos
-  y redes.
+  WireGuard is an open-source tool connected to networking and security.
 
   In the OT archive, this entry is tagged as: networking, open-source,
   security, tools — a shorthand for the kinds of practice and politics it

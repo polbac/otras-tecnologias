@@ -1,7 +1,7 @@
 ---
 title: A Cybernetic Ecology
 description: >-
-  Archive de ecologias ciberneticas; contracultura, sistemas y futuro.
+  A Cybernetic Ecology is a resource about archive, history, and theory.
 
 
   In the OT archive, this entry is tagged as: archive, history, theory, tools —

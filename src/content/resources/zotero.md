@@ -1,7 +1,7 @@
 ---
 title: Zotero
 description: >-
-  Gestion de referencias y bibliografia; tool comunitaria para research.
+  Zotero is a resource about community, knowledge, and libraries.
 
 
   In the OT archive, this entry is tagged as: community, knowledge, libraries,

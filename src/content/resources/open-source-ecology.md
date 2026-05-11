@@ -1,7 +1,7 @@
 ---
 title: Open Source Ecology
 description: >-
-  Maquinas abiertas para economias locales; tools como comunes.
+  Open Source Ecology is a resource about commons, community, diy, and hardware.
 
 
   In the OT archive, this entry is tagged as: commons, community, diy, hardware

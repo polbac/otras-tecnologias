@@ -1,7 +1,7 @@
 ---
 title: Creative Coding (campo)
 description: >-
-  Practicas de programacion para art, aprendizaje y expresion.
+  Creative Coding (campo) is a resource about art, community, and education.
 
 
   In the OT archive, this entry is tagged as: art, community, education, tools —

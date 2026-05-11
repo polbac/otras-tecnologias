@@ -1,7 +1,7 @@
 ---
 title: Open Library
 description: >-
-  Catalogo open de libros; parte de internet Archive.
+  Open Library is a resource about archive, community, knowledge, and libraries.
 
 
   In the OT archive, this entry is tagged as: archive, community, knowledge,

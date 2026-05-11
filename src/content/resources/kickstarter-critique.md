@@ -1,7 +1,8 @@
 ---
 title: Plataformas de crowdfunding (tema)
 description: >-
-  Para pensar financiamiento, dependencia y community en projects creativos.
+  Plataformas de crowdfunding (tema) is a resource about community, debate,
+  economy, and infrastructure.
 
 
   In the OT archive, this entry is tagged as: community, debate, economy,

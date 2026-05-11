@@ -1,8 +1,8 @@
 ---
 title: Cybernetic Revolutionaries
 description: >-
-  Historia de Project Cybersyn y de una imaginacion socialista para redes,
-  decision e infraestructura.
+  Cybernetic Revolutionaries is a book about cybernetics, democracy, history,
+  and infrastructure.
 
 
   In the OT archive, this entry is tagged as: cybernetics, democracy, history,

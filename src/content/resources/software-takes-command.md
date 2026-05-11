@@ -1,8 +1,7 @@
 ---
 title: Software Takes Command
 description: >-
-  Libro sobre software como motor cultural y como capa que reorganiza los medios
-  contemporaneos.
+  Software Takes Command is a book about culture, media, software, and theory.
 
 
   In the OT archive, this entry is tagged as: culture, media, software, theory,

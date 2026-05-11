@@ -1,7 +1,8 @@
 ---
 title: Choose an open source license
 description: >-
-  Guia pragmatica para elegir licenses; claridad para cooperation.
+  Choose an open source license is an open-source resource connected to
+  community, guide, and licenses.
 
 
   In the OT archive, this entry is tagged as: community, guide, licenses,

@@ -1,7 +1,8 @@
 ---
 title: Design Justice Network
 description: >-
-  Principios para diseño centrado en communities; justicia, inclusion y poder.
+  Design Justice Network is a resource about community, democracy, design, and
+  justice.
 
 
   In the OT archive, this entry is tagged as: community, democracy, design,

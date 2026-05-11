@@ -1,8 +1,7 @@
 ---
 title: 'Briar'
 description: >-
-  Mensajeria peer-to-peer resistente a censura, cortes de red y vigilancia
-  centralizada.
+  Briar is a resource about communication, peer-to-peer systems, and privacy.
 
   In the OT archive, this entry is tagged as: communication, p2p, privacy,
   tools — a shorthand for the kinds of practice and politics it connects to.

@@ -1,8 +1,7 @@
 ---
 title: 'Haskell'
 description: >-
-  Lenguaje funcional usado para investigacion, sistemas tipados y
-  experimentacion con abstracciones.
+  Haskell is an open-source tool connected to programming and research.
 
   In the OT archive, this entry is tagged as: open-source, programming,
   research, tools — a shorthand for the kinds of practice and politics it

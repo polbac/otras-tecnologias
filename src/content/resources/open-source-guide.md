@@ -1,7 +1,8 @@
 ---
 title: Open Source Guides
 description: >-
-  Guias para construir communities y projects; mantenimiento y procesos.
+  Open Source Guides is an open-source resource connected to community, guide,
+  and maintenance.
 
 
   In the OT archive, this entry is tagged as: community, guide, maintenance,

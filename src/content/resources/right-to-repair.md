@@ -1,7 +1,7 @@
 ---
 title: Right to Repair
 description: >-
-  Movimiento por el right a reparar; contra la obsolescencia y por autonomy.
+  Right to Repair is a resource about community, diy, hardware, and rights.
 
 
   In the OT archive, this entry is tagged as: community, diy, hardware, rights —

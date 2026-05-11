@@ -1,8 +1,7 @@
 ---
 title: 'Deno'
 description: >-
-  Runtime moderno para JavaScript y TypeScript con foco en seguridad y
-  estandares web.
+  Deno is an open-source tool connected to JavaScript and TypeScript.
 
   In the OT archive, this entry is tagged as: javascript, open-source, tools,
   typescript — a shorthand for the kinds of practice and politics it connects

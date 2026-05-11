@@ -1,7 +1,8 @@
 ---
 title: Open Source Hardware Definition
 description: >-
-  Definicion comunitaria de hardware open; licenses y principios.
+  Open Source Hardware Definition is an open-source resource connected to
+  community, hardware, and licenses.
 
 
   In the OT archive, this entry is tagged as: community, hardware, licenses,

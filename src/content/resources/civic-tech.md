@@ -1,7 +1,7 @@
 ---
 title: Civic Tech (campo)
 description: >-
-  Tecnologia para lo public; transparencia, participation y tools abiertas.
+  Civic Tech (campo) is a resource about community, democracy, and politics.
 
 
   In the OT archive, this entry is tagged as: community, democracy, politics,

@@ -1,8 +1,7 @@
 ---
 title: Programmed Visions
 description: >-
-  Libro sobre software, invisibilidad, poder y las promesas culturales de la
-  programabilidad.
+  Programmed Visions is a book about culture, media, software, and theory.
 
 
   In the OT archive, this entry is tagged as: culture, media, software, theory,
